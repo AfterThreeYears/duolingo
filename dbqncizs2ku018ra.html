@@ -1,1196 +1,1222 @@
 <!--<!
 [endif]--><head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="description"
-      content="Affordable and convenient language certification from Duolingo."
-    />
-    <meta
-      name="viewport"
-      content="width=device-width,maximum-scale=1,initial-scale=1,minimum-scale=1,user-scalable=yes"
-    />
-    <meta name="google" value="notranslate" />
-    <meta
-      content="https://dy8n3onijof8f.cloudfront.net/static/images/testcenter/favicon.ico"
-      itemprop="image"
-    />
-    <meta
-      name="google-site-verification"
-      content="8M4yiKHeEa_Lt2dZFdMu0WxDCelnV2OkozXi3PUS1sk"
-    />
-    <meta
-      name="ahrefs-site-verification"
-      content="25a3b0226b2078b3e2fc7cafb4af51fdb016a98aa95f3fb05f015db8f4906e0e"
-    />
-    <meta property="fb:app_id" content="234536436609303" />
-    <meta
-      name="facebook-domain-verification"
-      content="3nxcgx99hvbagv2dwwncapohp6yiqb"
-    />
-    <meta property="og:title" content="Duolingo English Test" />
-    <meta
-      property="og:description"
-      content="Affordable and convenient language certification from Duolingo."
-    />
-    <meta property="og:type" content="website" />
-    <meta
-      property="og:url"
-      content="https://certs.duolingo.com/en/dbqncizs2ku018ra"
-    />
-    <meta
-      property="og:image"
-      content="./static/images/testcenter/splash/test_takers/universities.png"
-    />
-    <link
-      rel="shortcut icon"
-      href="https://dy8n3onijof8f.cloudfront.net/static/images/testcenter/favicon.ico"
-    />
-    <title>Duolingo English Test</title>
-    <link
-      rel="preload"
-      href="./static/css/2535_prod_36baa32457658df241c2.css"
-      as="style"
-      crossorigin="anonymous"
-    />
-    <!-- <link
-      rel="preload"
-      href="./static/js/2535_prod_4353979d3c326a7cf9ee.js"
-      as="script"
-      crossorigin="anonymous"
-    /> -->
-    <link
-      rel="preload"
-      href="./static/css/3723_prod_7e43db74267e3a16f9f8.css"
-      as="style"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="preload"
-      href="./static/js/3723_prod_a01b5bb820777b5825bc.js"
-      as="script"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="./static/css/main_prod_7d7367a77475f34c7512.css"
-      crossorigin="anonymous"
-    />
-    <script>piAId = '209162'; function piSetCookie() {}; var pi = { tracker: {} }; var piScriptObj = {}; var piScriptNum = '';</script>
-    <script>
-      window.handlePrint = function() {
-        var d = document.createElement("iframe");
-        d.style.position = "absolute",
-        d.style.top = "-1000px",
-        d.style.left = "-1000px",
-        d.id = "printWindow",
-        d.title = "Print Window";
-        var h = document.querySelector('._3UJnX')
-            , p = document.querySelectorAll("link[rel='stylesheet'], img");
-        // t.linkTotal = p.length || 0,
-        // t.linksLoaded = [],
-        // t.linksErrored = [];
-        // var f = function(e, n) {
-        //     n ? t.linksLoaded.push(e) : (l || console.error('"react-to-print" was unable to load a link. It may be invalid. "react-to-print" will continue attempting to print the page. The link the errored was:', e),
-        //     t.linksErrored.push(e)),
-        //     t.linksLoaded.length + t.linksErrored.length === t.linkTotal && t.triggerPrint(d)
-        // };
-        d.onload = function() {
-            window.navigator && window.navigator.userAgent.indexOf("Trident/7.0") > -1 && (d.onload = null);
-            var e = d.contentDocument || d.contentWindow.document
-                , n = h.querySelectorAll("canvas");
-            if (e) {
-                e.open(),
-                e.write(h.outerHTML),
-                e.close();
-                var c;
-                var i = void 0 === c ? "@page { size: auto;  margin: 0mm; } @media print { body { -webkit-print-color-adjust: exact; } }" : c
-                    , s = e.createElement("style");
-                s.appendChild(e.createTextNode(i)),
-                e.head.appendChild(s);
-                // r.length && e.body.classList.add(r);
-                for (var o = e.querySelectorAll("canvas"), l = 0, u = o.length; l < u; ++l) {
-                    var p = (y = o[l]).getContext("2d");
-                    p && p.drawImage(n[l], 0, 0)
-                }
-                for (var m = document.querySelectorAll("style, link[rel='stylesheet'], img"), g = (l = 0, m.length); l < g; ++l) {
-                    var y;
-                    if ("STYLE" === (y = m[l]).tagName) {
-                        var v = e.createElement(y.tagName)
-                            , b = y.sheet;
-                        if (b) {
-                            for (var _ = "", E = 0, w = b.cssRules.length; E < w; ++E)
-                                "string" == typeof b.cssRules[E].cssText && (_ += b.cssRules[E].cssText + "\r\n");
-                            v.setAttribute("id", "react-to-print-" + l),
-                            v.appendChild(e.createTextNode(_)),
-                            e.head.appendChild(v)
-                        }
-                    } else if (y.hasAttribute("href") && y.getAttribute("href") || y.hasAttribute("src") && y.getAttribute("src")) {
-                        v = e.createElement(y.tagName),
-                        E = 0;
-                        for (var S = y.attributes.length; E < S; ++E) {
-                            var T = y.attributes[E];
-                            T && v.setAttribute(T.nodeName, T.nodeValue || "")
-                        }
-                        // v.onload = f.bind(null, v, !0),
-                        // v.onerror = f.bind(null, v, !1),
-                        e.head.appendChild(v)
-                    }
-                    // else
-                    //     console.warn('"react-to-print" encountered a <link> tag with an empty "href" attribute. In addition to being invalid HTML, this can cause problems in many browsers, and so the <link> was not loaded. The <link> is:', y),
-                    //     f(y, !0)
-                }
-                d.contentWindow.print()
-            }
-            // 0 !== t.linkTotal && !1 !== a || t.triggerPrint(d)
-        };
-        var m = document.getElementById("printWindow");
-        m && document.body.removeChild(m),
-        document.body.appendChild(d)
-      }
-    </script>
-    <!-- <script type="text/javascript" src="https://pi.pardot.com/pd.js"></script>
-    <script async="" src="https://www.clarity.ms/s/0.7.56/clarity.js"></script>
-    <script
-      async=""
-      src="https://www.clarity.ms/tag/uet/343094589?insights=1"
-    ></script>
-    <script
-      type="text/javascript"
-      async=""
-      src="https://www.googletagmanager.com/gtag/destination?id=AW-11292899172&amp;l=dataLayer&amp;cx=c&amp;gtm=45He4bk0v812915520za200"
-    ></script>
-    <script
-      type="text/javascript"
-      async=""
-      src="https://www.googletagmanager.com/gtag/destination?id=DC-12371249&amp;l=dataLayer&amp;cx=c&amp;gtm=45He4bk0v812915520za200"
-    ></script> -->
-    <!-- <script
-      type="text/javascript"
-      async=""
-      src="https://a.quora.com/qevents.js"
-    ></script> -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="description"
+    content="Affordable and convenient language certification from Duolingo."
+  />
+  <meta
+    name="viewport"
+    content="width=device-width,maximum-scale=1,initial-scale=1,minimum-scale=1,user-scalable=yes"
+  />
+  <meta name="google" value="notranslate" />
+  <meta
+    content="https://dy8n3onijof8f.cloudfront.net/static/images/testcenter/favicon.ico"
+    itemprop="image"
+  />
+  <meta
+    name="google-site-verification"
+    content="8M4yiKHeEa_Lt2dZFdMu0WxDCelnV2OkozXi3PUS1sk"
+  />
+  <meta
+    name="ahrefs-site-verification"
+    content="25a3b0226b2078b3e2fc7cafb4af51fdb016a98aa95f3fb05f015db8f4906e0e"
+  />
+  <meta property="fb:app_id" content="234536436609303" />
+  <meta
+    name="facebook-domain-verification"
+    content="3nxcgx99hvbagv2dwwncapohp6yiqb"
+  />
+  <meta property="og:title" content="Duolingo English Test" />
+  <meta
+    property="og:description"
+    content="Affordable and convenient language certification from Duolingo."
+  />
+  <meta property="og:type" content="website" />
+  <meta
+    property="og:url"
+    content="https://certs.duolingo.com/en/dbqncizs2kuO18ra"
+  />
+  <meta
+    property="og:image"
+    content="./static/images/testcenter/splash/test_takers/universities.png"
+  />
+  <link
+    rel="shortcut icon"
+    href="https://dy8n3onijof8f.cloudfront.net/static/images/testcenter/favicon.ico"
+  />
+  <title>Duolingo English Test</title>
+  <link
+    rel="preload"
+    href="./static/css/2535_prod_36baa32457658df241c2.css"
+    as="style"
+    crossorigin="anonymous"
+  />
+  <!-- <link
+    rel="preload"
+    href="./static/js/2535_prod_4353979d3c326a7cf9ee.js"
+    as="script"
+    crossorigin="anonymous"
+  /> -->
+  <link
+    rel="preload"
+    href="./static/css/3723_prod_7e43db74267e3a16f9f8.css"
+    as="style"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="preload"
+    href="./static/js/3723_prod_a01b5bb820777b5825bc.js"
+    as="script"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="./static/css/main_prod_7d7367a77475f34c7512.css"
+    crossorigin="anonymous"
+  />
+  <script>
+    // location.href = 'https://certs.duolingo.com/dbqncizs2ku018ra';
+  </script>
+  <script>piAId = '209162'; function piSetCookie() {}; var pi = { tracker: {} }; var piScriptObj = {}; var piScriptNum = '';</script>
+  <script>
+    window.handlePrint = function() {
+      var d = document.createElement("iframe");
+      d.style.position = "absolute",
+      d.style.top = "-1000px",
+      d.style.left = "-1000px",
+      d.id = "printWindow",
+      d.title = "Print Window";
+      var h = document.querySelector('._3UJnX')
+          , p = document.querySelectorAll("link[rel='stylesheet'], img");
+      // t.linkTotal = p.length || 0,
+      // t.linksLoaded = [],
+      // t.linksErrored = [];
+      // var f = function(e, n) {
+      //     n ? t.linksLoaded.push(e) : (l || console.error('"react-to-print" was unable to load a link. It may be invalid. "react-to-print" will continue attempting to print the page. The link the errored was:', e),
+      //     t.linksErrored.push(e)),
+      //     t.linksLoaded.length + t.linksErrored.length === t.linkTotal && t.triggerPrint(d)
+      // };
+      d.onload = function() {
+          window.navigator && window.navigator.userAgent.indexOf("Trident/7.0") > -1 && (d.onload = null);
+          var e = d.contentDocument || d.contentWindow.document
+              , n = h.querySelectorAll("canvas");
+          if (e) {
+              e.open(),
+              e.write(h.outerHTML),
+              e.close();
+              var c;
+              var i = void 0 === c ? "@page { size: auto;  margin: 0mm; } @media print { body { -webkit-print-color-adjust: exact; } }" : c
+                  , s = e.createElement("style");
+              s.appendChild(e.createTextNode(i)),
+              e.head.appendChild(s);
+              // r.length && e.body.classList.add(r);
+              for (var o = e.querySelectorAll("canvas"), l = 0, u = o.length; l < u; ++l) {
+                  var p = (y = o[l]).getContext("2d");
+                  p && p.drawImage(n[l], 0, 0)
+              }
+              for (var m = document.querySelectorAll("style, link[rel='stylesheet'], img"), g = (l = 0, m.length); l < g; ++l) {
+                  var y;
+                  if ("STYLE" === (y = m[l]).tagName) {
+                      var v = e.createElement(y.tagName)
+                          , b = y.sheet;
+                      if (b) {
+                          for (var _ = "", E = 0, w = b.cssRules.length; E < w; ++E)
+                              "string" == typeof b.cssRules[E].cssText && (_ += b.cssRules[E].cssText + "\r\n");
+                          v.setAttribute("id", "react-to-print-" + l),
+                          v.appendChild(e.createTextNode(_)),
+                          e.head.appendChild(v)
+                      }
+                  } else if (y.hasAttribute("href") && y.getAttribute("href") || y.hasAttribute("src") && y.getAttribute("src")) {
+                      v = e.createElement(y.tagName),
+                      E = 0;
+                      for (var S = y.attributes.length; E < S; ++E) {
+                          var T = y.attributes[E];
+                          T && v.setAttribute(T.nodeName, T.nodeValue || "")
+                      }
+                      // v.onload = f.bind(null, v, !0),
+                      // v.onerror = f.bind(null, v, !1),
+                      e.head.appendChild(v)
+                  }
+                  // else
+                  //     console.warn('"react-to-print" encountered a <link> tag with an empty "href" attribute. In addition to being invalid HTML, this can cause problems in many browsers, and so the <link> was not loaded. The <link> is:', y),
+                  //     f(y, !0)
+              }
+              d.contentWindow.print()
+          }
+          // 0 !== t.linkTotal && !1 !== a || t.triggerPrint(d)
+      };
+      var m = document.getElementById("printWindow");
+      m && document.body.removeChild(m),
+      document.body.appendChild(d)
+    }
+  </script>
+  <!-- <script type="text/javascript" src="https://pi.pardot.com/pd.js"></script>
+  <script async="" src="https://www.clarity.ms/s/0.7.56/clarity.js"></script>
+  <script
+    async=""
+    src="https://www.clarity.ms/tag/uet/343094589?insights=1"
+  ></script>
+  <script
+    type="text/javascript"
+    async=""
+    src="https://www.googletagmanager.com/gtag/destination?id=AW-11292899172&amp;l=dataLayer&amp;cx=c&amp;gtm=45He4bk0v812915520za200"
+  ></script>
+  <script
+    type="text/javascript"
+    async=""
+    src="https://www.googletagmanager.com/gtag/destination?id=DC-12371249&amp;l=dataLayer&amp;cx=c&amp;gtm=45He4bk0v812915520za200"
+  ></script> -->
+  <!-- <script
+    type="text/javascript"
+    async=""
+    src="https://a.quora.com/qevents.js"
+  ></script> -->
 <!-- 
-    <script
-      type="text/javascript"
-      async=""
-      src="https://www.google-analytics.com/analytics.js"
-    ></script>
-    <script
-      type="text/javascript"
-      async=""
-      src="https://www.googletagmanager.com/gtag/js?id=G-Q2Y2PVZZLX&amp;l=dataLayer&amp;cx=c&amp;gtm=45He4bk0v812915520za200"
-    ></script>
-     -->
-    <!-- <script src="//bat.bing.com/bat.js" async=""></script> -->
-    <!-- <script
-      async=""
-      src="https://www.googletagmanager.com/gtm.js?id=GTM-5DGPVNT"
-    ></script> -->
-    <script>
-      (function () {
-        if ("undefined" == typeof Symbol || "undefined" == typeof Proxy)
-          return !1;
-        try {
-          return (
-            new Function("(a = 0) => a")(),
-            new Function("class MyEvent extends Event{}")(),
-            !1 === new Function("return new Boolean(Symbol.match)")()
-              ? !1
-              : (new Function("new.target")(),
-                new Function(
-                  'class ಠ_ಠ extends Array {constructor(j = "a", ...c) {const q = (({u: e}) => {return { [`s${c}`]: Symbol(j) };})({});super(j, q, ...c);}}new Promise((f) => {const a = function* (){return "𠮷".match(/./u)[0].length === 2 || true;};for (let vre of a()) {const [uw, as, he, re] = [new Set(), new WeakSet(), new Map(), new WeakMap()];break;}f(new Proxy({}, {get: (han, h) => h in han ? han[h] : "42".repeat(0o10)}));}).then(bi => new ಠ_ಠ(bi.rd));',
-                )(),
-                !0)
-          );
-        } catch (n) {
-          return !1;
-        }
-      })() || (window.location.href = "/errors/not-supported.html");
-    </script>
-    <!-- <script>
-      !(function (e, t, a, n, o) {
-        (e[n] = e[n] || []),
-          e[n].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
-        var r = e.location,
-          s = new URLSearchParams(r.search).get("landing_url");
-        e[n].push({
-          originalLocation: s
-            ? decodeURIComponent(s)
-            : r.protocol + "//" + r.host + r.pathname + r.search,
-        });
-        var c = t.getElementsByTagName(a)[0],
-          g = t.createElement(a);
-        (g.async = !0),
-          (g.src = "https://www.googletagmanager.com/gtm.js?id=GTM-5DGPVNT"),
-          c.parentNode.insertBefore(g, c);
-      })(window, document, "script", "dataLayer");
-    </script> -->
-   
+  <script
+    type="text/javascript"
+    async=""
+    src="https://www.google-analytics.com/analytics.js"
+  ></script>
+  <script
+    type="text/javascript"
+    async=""
+    src="https://www.googletagmanager.com/gtag/js?id=G-Q2Y2PVZZLX&amp;l=dataLayer&amp;cx=c&amp;gtm=45He4bk0v812915520za200"
+  ></script>
+   -->
+  <!-- <script src="//bat.bing.com/bat.js" async=""></script> -->
+  <!-- <script
+    async=""
+    src="https://www.googletagmanager.com/gtm.js?id=GTM-5DGPVNT"
+  ></script> -->
+  <script>
+    (function () {
+      if ("undefined" == typeof Symbol || "undefined" == typeof Proxy)
+        return !1;
+      try {
+        return (
+          new Function("(a = 0) => a")(),
+          new Function("class MyEvent extends Event{}")(),
+          !1 === new Function("return new Boolean(Symbol.match)")()
+            ? !1
+            : (new Function("new.target")(),
+              new Function(
+                'class ಠ_ಠ extends Array {constructor(j = "a", ...c) {const q = (({u: e}) => {return { [`s${c}`]: Symbol(j) };})({});super(j, q, ...c);}}new Promise((f) => {const a = function* (){return "𠮷".match(/./u)[0].length === 2 || true;};for (let vre of a()) {const [uw, as, he, re] = [new Set(), new WeakSet(), new Map(), new WeakMap()];break;}f(new Proxy({}, {get: (han, h) => h in han ? han[h] : "42".repeat(0o10)}));}).then(bi => new ಠ_ಠ(bi.rd));',
+              )(),
+              !0)
+        );
+      } catch (n) {
+        return !1;
+      }
+    })() || (window.location.href = "/errors/not-supported.html");
+  </script>
+  <!-- <script>
+    !(function (e, t, a, n, o) {
+      (e[n] = e[n] || []),
+        e[n].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+      var r = e.location,
+        s = new URLSearchParams(r.search).get("landing_url");
+      e[n].push({
+        originalLocation: s
+          ? decodeURIComponent(s)
+          : r.protocol + "//" + r.host + r.pathname + r.search,
+      });
+      var c = t.getElementsByTagName(a)[0],
+        g = t.createElement(a);
+      (g.async = !0),
+        (g.src = "https://www.googletagmanager.com/gtm.js?id=GTM-5DGPVNT"),
+        c.parentNode.insertBefore(g, c);
+    })(window, document, "script", "dataLayer");
+  </script> -->
+ 
 
 
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="./static/css/2535_prod_36baa32457658df241c2.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="./static/css/3723_prod_7e43db74267e3a16f9f8.css"
-    />
-    <style id="googleidentityservice_button_styles">
-      .qJTHM {
-        -webkit-user-select: none;
-        color: #202124;
-        direction: ltr;
-        -webkit-touch-callout: none;
-        font-family: "Roboto-Regular", arial, sans-serif;
-        -webkit-font-smoothing: antialiased;
-        font-weight: 400;
-        margin: 0;
-        overflow: hidden;
-        -webkit-text-size-adjust: 100%;
-      }
-      .ynRLnc {
-        left: -9999px;
-        position: absolute;
-        top: -9999px;
-      }
-      .L6cTce {
-        display: none;
-      }
-      .bltWBb {
-        word-break: break-all;
-      }
-      .hSRGPd {
-        color: #1a73e8;
-        cursor: pointer;
-        font-weight: 500;
-        text-decoration: none;
-      }
-      .Bz112c-W3lGp {
-        height: 16px;
-        width: 16px;
-      }
-      .Bz112c-E3DyYd {
-        height: 20px;
-        width: 20px;
-      }
-      .Bz112c-r9oPif {
-        height: 24px;
-        width: 24px;
-      }
-      .Bz112c-uaxL4e {
-        -webkit-border-radius: 10px;
-        border-radius: 10px;
-      }
-      .LgbsSe-Bz112c {
-        display: block;
-      }
-      .S9gUrf-YoZ4jf,
-      .S9gUrf-YoZ4jf * {
-        border: none;
-        margin: 0;
-        padding: 0;
-      }
-      .fFW7wc-ibnC6b > .aZ2wEe > div {
-        border-color: #4285f4;
-      }
-      .P1ekSe-ZMv3u > div:nth-child(1) {
-        background-color: #1a73e8 !important;
-      }
-      .P1ekSe-ZMv3u > div:nth-child(2),
-      .P1ekSe-ZMv3u > div:nth-child(3) {
-        background-image: linear-gradient(
-            to right,
-            rgba(255, 255, 255, 0.7),
-            rgba(255, 255, 255, 0.7)
-          ),
-          linear-gradient(to right, #1a73e8, #1a73e8) !important;
-      }
-      .haAclf {
-        display: inline-block;
-      }
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="./static/css/2535_prod_36baa32457658df241c2.css"
+  />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="./static/css/3723_prod_7e43db74267e3a16f9f8.css"
+  />
+  <style id="googleidentityservice_button_styles">
+    .qJTHM {
+      -webkit-user-select: none;
+      color: #202124;
+      direction: ltr;
+      -webkit-touch-callout: none;
+      font-family: "Roboto-Regular", arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      font-weight: 400;
+      margin: 0;
+      overflow: hidden;
+      -webkit-text-size-adjust: 100%;
+    }
+    .ynRLnc {
+      left: -9999px;
+      position: absolute;
+      top: -9999px;
+    }
+    .L6cTce {
+      display: none;
+    }
+    .bltWBb {
+      word-break: break-all;
+    }
+    .hSRGPd {
+      color: #1a73e8;
+      cursor: pointer;
+      font-weight: 500;
+      text-decoration: none;
+    }
+    .Bz112c-W3lGp {
+      height: 16px;
+      width: 16px;
+    }
+    .Bz112c-E3DyYd {
+      height: 20px;
+      width: 20px;
+    }
+    .Bz112c-r9oPif {
+      height: 24px;
+      width: 24px;
+    }
+    .Bz112c-uaxL4e {
+      -webkit-border-radius: 10px;
+      border-radius: 10px;
+    }
+    .LgbsSe-Bz112c {
+      display: block;
+    }
+    .S9gUrf-YoZ4jf,
+    .S9gUrf-YoZ4jf * {
+      border: none;
+      margin: 0;
+      padding: 0;
+    }
+    .fFW7wc-ibnC6b > .aZ2wEe > div {
+      border-color: #4285f4;
+    }
+    .P1ekSe-ZMv3u > div:nth-child(1) {
+      background-color: #1a73e8 !important;
+    }
+    .P1ekSe-ZMv3u > div:nth-child(2),
+    .P1ekSe-ZMv3u > div:nth-child(3) {
+      background-image: linear-gradient(
+          to right,
+          rgba(255, 255, 255, 0.7),
+          rgba(255, 255, 255, 0.7)
+        ),
+        linear-gradient(to right, #1a73e8, #1a73e8) !important;
+    }
+    .haAclf {
+      display: inline-block;
+    }
+    .nsm7Bb-HzV7m-LgbsSe {
+      -webkit-border-radius: 4px;
+      border-radius: 4px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      -webkit-transition:
+        background-color 0.218s,
+        border-color 0.218s;
+      transition:
+        background-color 0.218s,
+        border-color 0.218s;
+      -webkit-user-select: none;
+      -webkit-appearance: none;
+      background-color: #fff;
+      background-image: none;
+      border: 1px solid #dadce0;
+      color: #3c4043;
+      cursor: pointer;
+      font-family: "Google Sans", arial, sans-serif;
+      font-size: 14px;
+      height: 40px;
+      letter-spacing: 0.25px;
+      outline: none;
+      overflow: hidden;
+      padding: 0 12px;
+      position: relative;
+      text-align: center;
+      vertical-align: middle;
+      white-space: nowrap;
+      width: auto;
+    }
+    @media screen and (-ms-high-contrast: active) {
       .nsm7Bb-HzV7m-LgbsSe {
-        -webkit-border-radius: 4px;
-        border-radius: 4px;
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box;
-        -webkit-transition:
-          background-color 0.218s,
-          border-color 0.218s;
-        transition:
-          background-color 0.218s,
-          border-color 0.218s;
-        -webkit-user-select: none;
-        -webkit-appearance: none;
-        background-color: #fff;
-        background-image: none;
-        border: 1px solid #dadce0;
-        color: #3c4043;
-        cursor: pointer;
-        font-family: "Google Sans", arial, sans-serif;
-        font-size: 14px;
-        height: 40px;
-        letter-spacing: 0.25px;
-        outline: none;
-        overflow: hidden;
-        padding: 0 12px;
-        position: relative;
-        text-align: center;
-        vertical-align: middle;
-        white-space: nowrap;
-        width: auto;
-      }
-      @media screen and (-ms-high-contrast: active) {
-        .nsm7Bb-HzV7m-LgbsSe {
-          border: 2px solid windowText;
-          color: windowText;
-        }
-      }
-      .nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe {
-        font-size: 14px;
-        height: 32px;
-        letter-spacing: 0.25px;
-        padding: 0 10px;
-      }
-      .nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe {
-        font-size: 11px;
-        height: 20px;
-        letter-spacing: 0.3px;
-        padding: 0 8px;
-      }
-      .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe {
-        padding: 0;
-        width: 40px;
-      }
-      .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.pSzOP-SxQuSe {
-        width: 32px;
-      }
-      .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.purZT-SxQuSe {
-        width: 20px;
-      }
-      .nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK {
-        -webkit-border-radius: 20px;
-        border-radius: 20px;
-      }
-      .nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK.pSzOP-SxQuSe {
-        -webkit-border-radius: 16px;
-        border-radius: 16px;
-      }
-      .nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK.purZT-SxQuSe {
-        -webkit-border-radius: 10px;
-        border-radius: 10px;
-      }
-      .nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc {
-        border: none;
-        color: #fff;
-      }
-      .nsm7Bb-HzV7m-LgbsSe.MFS4be-v3pZbf-Ia7Qfc {
-        background-color: #1a73e8;
-      }
-      .nsm7Bb-HzV7m-LgbsSe.MFS4be-JaPV2b-Ia7Qfc {
-        background-color: #202124;
-        color: #e8eaed;
-      }
-      .nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c {
-        height: 18px;
-        margin-right: 8px;
-        min-width: 18px;
-        width: 18px;
-      }
-      .nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c {
-        height: 14px;
-        min-width: 14px;
-        width: 14px;
-      }
-      .nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c {
-        height: 10px;
-        min-width: 10px;
-        width: 10px;
-      }
-      .nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-Bz112c {
-        margin-left: 8px;
-        margin-right: -4px;
-      }
-      .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c {
-        margin: 0;
-        padding: 10px;
-      }
-      .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.pSzOP-SxQuSe
-        .nsm7Bb-HzV7m-LgbsSe-Bz112c {
-        padding: 8px;
-      }
-      .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.purZT-SxQuSe
-        .nsm7Bb-HzV7m-LgbsSe-Bz112c {
-        padding: 4px;
-      }
-      .nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
-        -webkit-border-top-left-radius: 3px;
-        border-top-left-radius: 3px;
-        -webkit-border-bottom-left-radius: 3px;
-        border-bottom-left-radius: 3px;
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: flex;
-        justify-content: center;
-        -webkit-align-items: center;
-        align-items: center;
-        background-color: #fff;
-        height: 36px;
-        margin-left: -10px;
-        margin-right: 12px;
-        min-width: 36px;
-        width: 36px;
-      }
-      .nsm7Bb-HzV7m-LgbsSe
-        .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf
-        .nsm7Bb-HzV7m-LgbsSe-Bz112c,
-      .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe
-        .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf
-        .nsm7Bb-HzV7m-LgbsSe-Bz112c {
-        margin: 0;
-        padding: 0;
-      }
-      .nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
-        height: 28px;
-        margin-left: -8px;
-        margin-right: 10px;
-        min-width: 28px;
-        width: 28px;
-      }
-      .nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
-        height: 16px;
-        margin-left: -6px;
-        margin-right: 8px;
-        min-width: 16px;
-        width: 16px;
-      }
-      .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
-        -webkit-border-radius: 3px;
-        border-radius: 3px;
-        margin-left: 2px;
-        margin-right: 0;
-        padding: 0;
-      }
-      .nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
-        -webkit-border-radius: 18px;
-        border-radius: 18px;
-      }
-      .nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe.JGcpL-RbRzK
-        .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
-        -webkit-border-radius: 14px;
-        border-radius: 14px;
-      }
-      .nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe.JGcpL-RbRzK
-        .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
-        -webkit-border-radius: 8px;
-        border-radius: 8px;
-      }
-      .nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-bN97Pc-sM5MNb {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-align-items: center;
-        align-items: center;
-        -webkit-flex-direction: row;
-        flex-direction: row;
-        justify-content: space-between;
-        -webkit-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-        height: 100%;
-        position: relative;
-        width: 100%;
-      }
-      .nsm7Bb-HzV7m-LgbsSe .oXtfBe-l4eHX {
-        justify-content: center;
-      }
-      .nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-BPrWId {
-        -webkit-flex-grow: 1;
-        flex-grow: 1;
-        font-family: "Google Sans", arial, sans-serif;
-        font-weight: 500;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        vertical-align: top;
-      }
-      .nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-BPrWId {
-        font-weight: 300;
-      }
-      .nsm7Bb-HzV7m-LgbsSe .oXtfBe-l4eHX .nsm7Bb-HzV7m-LgbsSe-BPrWId {
-        -webkit-flex-grow: 0;
-        flex-grow: 0;
-      }
-      .nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-MJoBVe {
-        -webkit-transition: background-color 0.218s;
-        transition: background-color 0.218s;
-        bottom: 0;
-        left: 0;
-        position: absolute;
-        right: 0;
-        top: 0;
-      }
-      .nsm7Bb-HzV7m-LgbsSe:hover,
-      .nsm7Bb-HzV7m-LgbsSe:focus {
-        -webkit-box-shadow: none;
-        box-shadow: none;
-        border-color: #d2e3fc;
-        outline: none;
-      }
-      .nsm7Bb-HzV7m-LgbsSe:hover .nsm7Bb-HzV7m-LgbsSe-MJoBVe,
-      .nsm7Bb-HzV7m-LgbsSe:focus .nsm7Bb-HzV7m-LgbsSe-MJoBVe {
-        background: rgba(66, 133, 244, 0.04);
-      }
-      .nsm7Bb-HzV7m-LgbsSe:active .nsm7Bb-HzV7m-LgbsSe-MJoBVe {
-        background: rgba(66, 133, 244, 0.1);
-      }
-      .nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc:hover .nsm7Bb-HzV7m-LgbsSe-MJoBVe,
-      .nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc:focus .nsm7Bb-HzV7m-LgbsSe-MJoBVe {
-        background: rgba(255, 255, 255, 0.24);
-      }
-      .nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc:active .nsm7Bb-HzV7m-LgbsSe-MJoBVe {
-        background: rgba(255, 255, 255, 0.32);
-      }
-      .nsm7Bb-HzV7m-LgbsSe .n1UuX-DkfjY {
-        -webkit-border-radius: 50%;
-        border-radius: 50%;
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: flex;
-        height: 20px;
-        margin-left: -4px;
-        margin-right: 8px;
-        min-width: 20px;
-        width: 20px;
-      }
-      .nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId {
-        font-family: "Roboto";
-        font-size: 12px;
-        text-align: left;
-      }
-      .nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .ssJRIf,
-      .nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff .fmcmS {
-        overflow: hidden;
-        text-overflow: ellipsis;
-      }
-      .nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-align-items: center;
-        align-items: center;
-        color: #5f6368;
-        fill: #5f6368;
-        font-size: 11px;
-        font-weight: 400;
-      }
-      .nsm7Bb-HzV7m-LgbsSe.jVeSEe.MFS4be-Ia7Qfc
-        .nsm7Bb-HzV7m-LgbsSe-BPrWId
-        .K4efff {
-        color: #e8eaed;
-        fill: #e8eaed;
-      }
-      .nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff .Bz112c {
-        height: 18px;
-        margin: -3px -3px -3px 2px;
-        min-width: 18px;
-        width: 18px;
-      }
-      .nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
-        -webkit-border-top-left-radius: 0;
-        border-top-left-radius: 0;
-        -webkit-border-bottom-left-radius: 0;
-        border-bottom-left-radius: 0;
-        -webkit-border-top-right-radius: 3px;
-        border-top-right-radius: 3px;
-        -webkit-border-bottom-right-radius: 3px;
-        border-bottom-right-radius: 3px;
-        margin-left: 12px;
-        margin-right: -10px;
-      }
-      .nsm7Bb-HzV7m-LgbsSe.jVeSEe.JGcpL-RbRzK .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
-        -webkit-border-radius: 18px;
-        border-radius: 18px;
-      }
-      .L5Fo6c-sM5MNb {
-        border: 0;
-        display: block;
-        left: 0;
-        position: relative;
-        top: 0;
-      }
-      .L5Fo6c-bF1uUb {
-        -webkit-border-radius: 4px;
-        border-radius: 4px;
-        bottom: 0;
-        cursor: pointer;
-        left: 0;
-        position: absolute;
-        right: 0;
-        top: 0;
-      }
-      .L5Fo6c-bF1uUb:focus {
-        border: none;
-        outline: none;
-      }
-      sentinel {
-      }
-    </style>
-    <script
-      attributionsrc=""
-      type="text/javascript"
-      async=""
-      src="https://www.googleadservices.com/pagead/conversion/11292899172/?random=1732901111033&amp;cv=11&amp;fst=1732901111033&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be4bk0v9138253470z8812915520za201zb812915520&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=101925629~102067555~102067808~102077855~102081485&amp;u_w=1792&amp;u_h=1120&amp;url=https%3A%2F%2Fcerts.duolingo.com%2Fen%2F7agbgeua9ymmdk1o&amp;label=MsqZCNrf588YEOTu74gq&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Duolingo%20English%20Test&amp;value=0&amp;bttype=purchase&amp;npa=0&amp;pscdl=noapi&amp;auid=1175741942.1732897453&amp;uaa=x86&amp;uab=64&amp;uafvl=Google%2520Chrome%3B131.0.6778.86%7CChromium%3B131.0.6778.86%7CNot_A%2520Brand%3B24.0.0.0&amp;uamb=0&amp;uam=&amp;uap=macOS&amp;uapv=12.0.1&amp;uaw=0&amp;fledge=1&amp;capi=1&amp;rfmt=3&amp;fmt=4"
-    ></script>
-    <script
-      src="https://bat.bing.com/p/action/343094589.js"
-      type="text/javascript"
-      async=""
-      data-ueto="ueto_962a077f04"
-    ></script>
-    <style
-      type="text/css"
-      data-fbcssmodules="css:fb.css.base css:fb.css.dialog css:fb.css.iframewidget"
-    >
-      .fb_hidden {
-        position: absolute;
-        top: -10000px;
-        z-index: 10001;
-      }
-      .fb_reposition {
-        overflow: hidden;
-        position: relative;
-      }
-      .fb_invisible {
-        display: none;
-      }
-      .fb_reset {
-        background: none;
-        border: 0px;
-        border-spacing: 0;
-        color: #000;
-        cursor: auto;
-        direction: ltr;
-        font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
-        font-size: 11px;
-        font-style: normal;
-        font-variant: normal;
-        font-weight: normal;
-        letter-spacing: normal;
-        line-height: 1;
-        margin: 0;
-        overflow: visible;
-        padding: 0;
-        text-align: left;
-        text-decoration: none;
-        text-indent: 0;
-        text-shadow: none;
-        text-transform: none;
-        visibility: visible;
-        white-space: normal;
-        word-spacing: normal;
-      }
-      .fb_reset > div {
-        overflow: hidden;
-      }
-      @keyframes fb_transform {
-        from {
-          opacity: 0;
-          transform: scale(0.95);
-        }
-        to {
-          opacity: 1;
-          transform: scale(1);
-        }
-      }
-      .fb_animate {
-        animation: fb_transform 0.3s forwards;
-      }
-      .fb_hidden {
-        position: absolute;
-        top: -10000px;
-        z-index: 10001;
-      }
-      .fb_reposition {
-        overflow: hidden;
-        position: relative;
-      }
-      .fb_invisible {
-        display: none;
-      }
-      .fb_reset {
-        background: none;
-        border: 0px;
-        border-spacing: 0;
-        color: #000;
-        cursor: auto;
-        direction: ltr;
-        font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
-        font-size: 11px;
-        font-style: normal;
-        font-variant: normal;
-        font-weight: normal;
-        letter-spacing: normal;
-        line-height: 1;
-        margin: 0;
-        overflow: visible;
-        padding: 0;
-        text-align: left;
-        text-decoration: none;
-        text-indent: 0;
-        text-shadow: none;
-        text-transform: none;
-        visibility: visible;
-        white-space: normal;
-        word-spacing: normal;
-      }
-      .fb_reset > div {
-        overflow: hidden;
-      }
-      @keyframes fb_transform {
-        from {
-          opacity: 0;
-          transform: scale(0.95);
-        }
-        to {
-          opacity: 1;
-          transform: scale(1);
-        }
-      }
-      .fb_animate {
-        animation: fb_transform 0.3s forwards;
-      }
-      .fb_dialog {
-        background: rgba(82, 82, 82, 0.7);
-        position: absolute;
-        top: -10000px;
-        z-index: 10001;
-      }
-      .fb_dialog_advanced {
-        border-radius: 8px;
-        padding: 10px;
-      }
-      .fb_dialog_content {
-        background: #fff;
-        color: #373737;
-      }
-      .fb_dialog_close_icon {
-        background: url(https://connect.facebook.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png)
-          no-repeat scroll 0 0 transparent;
-        cursor: pointer;
-        display: block;
-        height: 15px;
-        position: absolute;
-        right: 18px;
-        top: 17px;
-        width: 15px;
-      }
-      .fb_dialog_mobile .fb_dialog_close_icon {
-        left: 5px;
-        right: auto;
-        top: 5px;
-      }
-      .fb_dialog_padding {
-        background-color: transparent;
-        position: absolute;
-        width: 1px;
-        z-index: -1;
-      }
-      .fb_dialog_close_icon:hover {
-        background: url(https://connect.facebook.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png)
-          no-repeat scroll 0 -15px transparent;
-      }
-      .fb_dialog_close_icon:active {
-        background: url(https://connect.facebook.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png)
-          no-repeat scroll 0 -30px transparent;
-      }
-      .fb_dialog_iframe {
-        line-height: 0;
-      }
-      .fb_dialog_content .dialog_title {
-        background: #6d84b4;
-        border: 1px solid #365899;
-        color: #fff;
-        font-size: 14px;
-        font-weight: bold;
-        margin: 0;
-      }
-      .fb_dialog_content .dialog_title > span {
-        background: url(https://connect.facebook.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif)
-          no-repeat 5px 50%;
-        float: left;
-        padding: 5px 0 7px 26px;
-      }
-      body.fb_hidden {
-        height: 100%;
-        left: 0px;
-        margin: 0px;
-        overflow: visible;
-        position: absolute;
-        top: -10000px;
-        transform: none;
-        width: 100%;
-      }
-      .fb_dialog.fb_dialog_mobile.loading {
-        background: url(https://connect.facebook.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif)
-          white no-repeat 50% 50%;
-        min-height: 100%;
-        min-width: 100%;
-        overflow: hidden;
-        position: absolute;
-        top: 0;
-        z-index: 10001;
-      }
-      .fb_dialog.fb_dialog_mobile.loading.centered {
-        background: none;
-        height: auto;
-        min-height: initial;
-        min-width: initial;
-        width: auto;
-      }
-      .fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner {
-        width: 100%;
-      }
-      .fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content {
-        background: none;
-      }
-      .loading.centered #fb_dialog_loader_close {
-        clear: both;
-        color: #fff;
-        display: block;
-        font-size: 18px;
-        padding-top: 20px;
-      }
-      #fb-root #fb_dialog_ipad_overlay {
-        background: rgba(0, 0, 0, 0.4);
-        bottom: 0;
-        left: 0;
-        min-height: 100%;
-        position: absolute;
-        right: 0;
-        top: 0;
-        width: 100%;
-        z-index: 10000;
-      }
-      #fb-root #fb_dialog_ipad_overlay.hidden {
-        display: none;
-      }
-      .fb_dialog.fb_dialog_mobile.loading iframe {
-        visibility: hidden;
-      }
-      .fb_dialog_mobile .fb_dialog_iframe {
-        position: sticky;
-        top: 0;
-      }
-      .fb_dialog_content .dialog_header {
-        background: linear-gradient(from(#738aba), to(#2c4987));
-        border-bottom: 1px solid;
-        border-color: #043b87;
-        box-shadow: white 0px 1px 1px -1px inset;
-        color: #fff;
-        font:
-          bold 14px Helvetica,
-          sans-serif;
-        text-overflow: ellipsis;
-        text-shadow: rgba(0, 30, 84, 0.296875) 0px -1px 0px;
-        vertical-align: middle;
-        white-space: nowrap;
-      }
-      .fb_dialog_content .dialog_header table {
-        height: 43px;
-        width: 100%;
-      }
-      .fb_dialog_content .dialog_header td.header_left {
-        font-size: 12px;
-        padding-left: 5px;
-        vertical-align: middle;
-        width: 60px;
-      }
-      .fb_dialog_content .dialog_header td.header_right {
-        font-size: 12px;
-        padding-right: 5px;
-        vertical-align: middle;
-        width: 60px;
-      }
-      .fb_dialog_content .touchable_button {
-        background: linear-gradient(from(#4267b2), to(#2a4887));
-        background-clip: padding-box;
-        border: 1px solid #29487d;
-        border-radius: 3px;
-        display: inline-block;
-        line-height: 18px;
-        margin-top: 3px;
-        max-width: 85px;
-        padding: 4px 12px;
-        position: relative;
-      }
-      .fb_dialog_content .dialog_header .touchable_button input {
-        background: none;
-        border: none;
-        color: #fff;
-        font:
-          bold 12px Helvetica,
-          sans-serif;
-        margin: 2px -12px;
-        padding: 2px 6px 3px 6px;
-        text-shadow: rgba(0, 30, 84, 0.296875) 0px -1px 0px;
-      }
-      .fb_dialog_content .dialog_header .header_center {
-        color: #fff;
-        font-size: 16px;
-        font-weight: bold;
-        line-height: 18px;
-        text-align: center;
-        vertical-align: middle;
-      }
-      .fb_dialog_content .dialog_content {
-        background: url(https://connect.facebook.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif)
-          no-repeat 50% 50%;
-        border: 1px solid #4a4a4a;
-        border-bottom: 0;
-        border-top: 0;
-        height: 150px;
-      }
-      .fb_dialog_content .dialog_footer {
-        background: #f5f6f7;
-        border: 1px solid #4a4a4a;
-        border-top-color: #ccc;
-        height: 40px;
-      }
-      #fb_dialog_loader_close {
-        float: left;
-      }
-      .fb_dialog.fb_dialog_mobile .fb_dialog_close_icon {
-        visibility: hidden;
-      }
-      #fb_dialog_loader_spinner {
-        animation: rotateSpinner 1.2s linear infinite;
-        background-color: transparent;
-        background-image: url(https://connect.facebook.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);
-        background-position: 50% 50%;
-        background-repeat: no-repeat;
-        height: 24px;
-        width: 24px;
-      }
-      @keyframes rotateSpinner {
-        0% {
-          transform: rotate(0deg);
-        }
-        100% {
-          transform: rotate(360deg);
-        }
-      }
-      .fb_iframe_widget {
-        display: inline-block;
-        position: relative;
-      }
-      .fb_iframe_widget span {
-        display: inline-block;
-        position: relative;
-        text-align: justify;
-      }
-      .fb_iframe_widget iframe {
-        position: absolute;
-      }
-      .fb_iframe_widget_fluid_desktop,
-      .fb_iframe_widget_fluid_desktop span,
-      .fb_iframe_widget_fluid_desktop iframe {
-        max-width: 100%;
-      }
-      .fb_iframe_widget_fluid_desktop iframe {
-        min-width: 220px;
-        position: relative;
-      }
-      .fb_iframe_widget_lift {
-        z-index: 1;
-      }
-      .fb_iframe_widget_fluid {
-        display: inline;
-      }
-      .fb_iframe_widget_fluid span {
-        width: 100%;
-      }
-    </style>
-    <script
-      type="text/javascript"
-      src="https://pi.pardot.com/analytics?ver=3&amp;visitor_id=1124383618&amp;visitor_id_sign=f5ee1be4fad2b428da2fa934ac6ecdb35c34ea06dae5ecb8c18e0f3189f697d17d5a711a83dac592c26d15fb64bb773a04d57455&amp;pi_opt_in=&amp;campaign_id=1262&amp;account_id=209162&amp;title=Duolingo%20English%20Test&amp;url=https%3A%2F%2Fcerts.duolingo.com%2Fen%2F7agbgeua9ymmdk1o&amp;referrer="
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://go.duolingo.com/analytics?conly=true&amp;visitor_id=1124383618&amp;visitor_id_sign=f5ee1be4fad2b428da2fa934ac6ecdb35c34ea06dae5ecb8c18e0f3189f697d17d5a711a83dac592c26d15fb64bb773a04d57455&amp;pi_opt_in=&amp;campaign_id=1262&amp;account_id=209162&amp;title=Duolingo%20English%20Test&amp;url=https%3A%2F%2Fcerts.duolingo.com%2Fen%2F7agbgeua9ymmdk1o&amp;referrer="
-    ></script>
-  </head>
-  <body class="">
-    
-    <div id="fb-root" class="fb_reset">
-      <div style="position: absolute; top: -10000px; width: 0px; height: 0px">
-        <div></div>
-      </div>
+        border: 2px solid windowText;
+        color: windowText;
+      }
+    }
+    .nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe {
+      font-size: 14px;
+      height: 32px;
+      letter-spacing: 0.25px;
+      padding: 0 10px;
+    }
+    .nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe {
+      font-size: 11px;
+      height: 20px;
+      letter-spacing: 0.3px;
+      padding: 0 8px;
+    }
+    .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe {
+      padding: 0;
+      width: 40px;
+    }
+    .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.pSzOP-SxQuSe {
+      width: 32px;
+    }
+    .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.purZT-SxQuSe {
+      width: 20px;
+    }
+    .nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK {
+      -webkit-border-radius: 20px;
+      border-radius: 20px;
+    }
+    .nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK.pSzOP-SxQuSe {
+      -webkit-border-radius: 16px;
+      border-radius: 16px;
+    }
+    .nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK.purZT-SxQuSe {
+      -webkit-border-radius: 10px;
+      border-radius: 10px;
+    }
+    .nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc {
+      border: none;
+      color: #fff;
+    }
+    .nsm7Bb-HzV7m-LgbsSe.MFS4be-v3pZbf-Ia7Qfc {
+      background-color: #1a73e8;
+    }
+    .nsm7Bb-HzV7m-LgbsSe.MFS4be-JaPV2b-Ia7Qfc {
+      background-color: #202124;
+      color: #e8eaed;
+    }
+    .nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c {
+      height: 18px;
+      margin-right: 8px;
+      min-width: 18px;
+      width: 18px;
+    }
+    .nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c {
+      height: 14px;
+      min-width: 14px;
+      width: 14px;
+    }
+    .nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c {
+      height: 10px;
+      min-width: 10px;
+      width: 10px;
+    }
+    .nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-Bz112c {
+      margin-left: 8px;
+      margin-right: -4px;
+    }
+    .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c {
+      margin: 0;
+      padding: 10px;
+    }
+    .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.pSzOP-SxQuSe
+      .nsm7Bb-HzV7m-LgbsSe-Bz112c {
+      padding: 8px;
+    }
+    .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.purZT-SxQuSe
+      .nsm7Bb-HzV7m-LgbsSe-Bz112c {
+      padding: 4px;
+    }
+    .nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
+      -webkit-border-top-left-radius: 3px;
+      border-top-left-radius: 3px;
+      -webkit-border-bottom-left-radius: 3px;
+      border-bottom-left-radius: 3px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      justify-content: center;
+      -webkit-align-items: center;
+      align-items: center;
+      background-color: #fff;
+      height: 36px;
+      margin-left: -10px;
+      margin-right: 12px;
+      min-width: 36px;
+      width: 36px;
+    }
+    .nsm7Bb-HzV7m-LgbsSe
+      .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf
+      .nsm7Bb-HzV7m-LgbsSe-Bz112c,
+    .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe
+      .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf
+      .nsm7Bb-HzV7m-LgbsSe-Bz112c {
+      margin: 0;
+      padding: 0;
+    }
+    .nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
+      height: 28px;
+      margin-left: -8px;
+      margin-right: 10px;
+      min-width: 28px;
+      width: 28px;
+    }
+    .nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
+      height: 16px;
+      margin-left: -6px;
+      margin-right: 8px;
+      min-width: 16px;
+      width: 16px;
+    }
+    .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
+      -webkit-border-radius: 3px;
+      border-radius: 3px;
+      margin-left: 2px;
+      margin-right: 0;
+      padding: 0;
+    }
+    .nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
+      -webkit-border-radius: 18px;
+      border-radius: 18px;
+    }
+    .nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe.JGcpL-RbRzK
+      .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
+      -webkit-border-radius: 14px;
+      border-radius: 14px;
+    }
+    .nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe.JGcpL-RbRzK
+      .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
+      -webkit-border-radius: 8px;
+      border-radius: 8px;
+    }
+    .nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-bN97Pc-sM5MNb {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-align-items: center;
+      align-items: center;
+      -webkit-flex-direction: row;
+      flex-direction: row;
+      justify-content: space-between;
+      -webkit-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+      height: 100%;
+      position: relative;
+      width: 100%;
+    }
+    .nsm7Bb-HzV7m-LgbsSe .oXtfBe-l4eHX {
+      justify-content: center;
+    }
+    .nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-BPrWId {
+      -webkit-flex-grow: 1;
+      flex-grow: 1;
+      font-family: "Google Sans", arial, sans-serif;
+      font-weight: 500;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      vertical-align: top;
+    }
+    .nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-BPrWId {
+      font-weight: 300;
+    }
+    .nsm7Bb-HzV7m-LgbsSe .oXtfBe-l4eHX .nsm7Bb-HzV7m-LgbsSe-BPrWId {
+      -webkit-flex-grow: 0;
+      flex-grow: 0;
+    }
+    .nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-MJoBVe {
+      -webkit-transition: background-color 0.218s;
+      transition: background-color 0.218s;
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .nsm7Bb-HzV7m-LgbsSe:hover,
+    .nsm7Bb-HzV7m-LgbsSe:focus {
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      border-color: #d2e3fc;
+      outline: none;
+    }
+    .nsm7Bb-HzV7m-LgbsSe:hover .nsm7Bb-HzV7m-LgbsSe-MJoBVe,
+    .nsm7Bb-HzV7m-LgbsSe:focus .nsm7Bb-HzV7m-LgbsSe-MJoBVe {
+      background: rgba(66, 133, 244, 0.04);
+    }
+    .nsm7Bb-HzV7m-LgbsSe:active .nsm7Bb-HzV7m-LgbsSe-MJoBVe {
+      background: rgba(66, 133, 244, 0.1);
+    }
+    .nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc:hover .nsm7Bb-HzV7m-LgbsSe-MJoBVe,
+    .nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc:focus .nsm7Bb-HzV7m-LgbsSe-MJoBVe {
+      background: rgba(255, 255, 255, 0.24);
+    }
+    .nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc:active .nsm7Bb-HzV7m-LgbsSe-MJoBVe {
+      background: rgba(255, 255, 255, 0.32);
+    }
+    .nsm7Bb-HzV7m-LgbsSe .n1UuX-DkfjY {
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      height: 20px;
+      margin-left: -4px;
+      margin-right: 8px;
+      min-width: 20px;
+      width: 20px;
+    }
+    .nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId {
+      font-family: "Roboto";
+      font-size: 12px;
+      text-align: left;
+    }
+    .nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .ssJRIf,
+    .nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff .fmcmS {
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-align-items: center;
+      align-items: center;
+      color: #5f6368;
+      fill: #5f6368;
+      font-size: 11px;
+      font-weight: 400;
+    }
+    .nsm7Bb-HzV7m-LgbsSe.jVeSEe.MFS4be-Ia7Qfc
+      .nsm7Bb-HzV7m-LgbsSe-BPrWId
+      .K4efff {
+      color: #e8eaed;
+      fill: #e8eaed;
+    }
+    .nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff .Bz112c {
+      height: 18px;
+      margin: -3px -3px -3px 2px;
+      min-width: 18px;
+      width: 18px;
+    }
+    .nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
+      -webkit-border-top-left-radius: 0;
+      border-top-left-radius: 0;
+      -webkit-border-bottom-left-radius: 0;
+      border-bottom-left-radius: 0;
+      -webkit-border-top-right-radius: 3px;
+      border-top-right-radius: 3px;
+      -webkit-border-bottom-right-radius: 3px;
+      border-bottom-right-radius: 3px;
+      margin-left: 12px;
+      margin-right: -10px;
+    }
+    .nsm7Bb-HzV7m-LgbsSe.jVeSEe.JGcpL-RbRzK .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
+      -webkit-border-radius: 18px;
+      border-radius: 18px;
+    }
+    .L5Fo6c-sM5MNb {
+      border: 0;
+      display: block;
+      left: 0;
+      position: relative;
+      top: 0;
+    }
+    .L5Fo6c-bF1uUb {
+      -webkit-border-radius: 4px;
+      border-radius: 4px;
+      bottom: 0;
+      cursor: pointer;
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .L5Fo6c-bF1uUb:focus {
+      border: none;
+      outline: none;
+    }
+    sentinel {
+    }
+  </style>
+  <script
+    attributionsrc=""
+    type="text/javascript"
+    async=""
+    src="https://www.googleadservices.com/pagead/conversion/11292899172/?random=1732901111033&amp;cv=11&amp;fst=1732901111033&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be4bk0v9138253470z8812915520za201zb812915520&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=101925629~102067555~102067808~102077855~102081485&amp;u_w=1792&amp;u_h=1120&amp;url=https%3A%2F%2Fcerts.duolingo.com%2Fen%2F7agbgeua9ymmdk1o&amp;label=MsqZCNrf588YEOTu74gq&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Duolingo%20English%20Test&amp;value=0&amp;bttype=purchase&amp;npa=0&amp;pscdl=noapi&amp;auid=1175741942.1732897453&amp;uaa=x86&amp;uab=64&amp;uafvl=Google%2520Chrome%3B131.0.6778.86%7CChromium%3B131.0.6778.86%7CNot_A%2520Brand%3B24.0.0.0&amp;uamb=0&amp;uam=&amp;uap=macOS&amp;uapv=12.0.1&amp;uaw=0&amp;fledge=1&amp;capi=1&amp;rfmt=3&amp;fmt=4"
+  ></script>
+  <script
+    src="https://bat.bing.com/p/action/343094589.js"
+    type="text/javascript"
+    async=""
+    data-ueto="ueto_962a077f04"
+  ></script>
+  <style
+    type="text/css"
+    data-fbcssmodules="css:fb.css.base css:fb.css.dialog css:fb.css.iframewidget"
+  >
+    .fb_hidden {
+      position: absolute;
+      top: -10000px;
+      z-index: 10001;
+    }
+    .fb_reposition {
+      overflow: hidden;
+      position: relative;
+    }
+    .fb_invisible {
+      display: none;
+    }
+    .fb_reset {
+      background: none;
+      border: 0px;
+      border-spacing: 0;
+      color: #000;
+      cursor: auto;
+      direction: ltr;
+      font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+      font-size: 11px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: normal;
+      letter-spacing: normal;
+      line-height: 1;
+      margin: 0;
+      overflow: visible;
+      padding: 0;
+      text-align: left;
+      text-decoration: none;
+      text-indent: 0;
+      text-shadow: none;
+      text-transform: none;
+      visibility: visible;
+      white-space: normal;
+      word-spacing: normal;
+    }
+    .fb_reset > div {
+      overflow: hidden;
+    }
+    @keyframes fb_transform {
+      from {
+        opacity: 0;
+        transform: scale(0.95);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+    .fb_animate {
+      animation: fb_transform 0.3s forwards;
+    }
+    .fb_hidden {
+      position: absolute;
+      top: -10000px;
+      z-index: 10001;
+    }
+    .fb_reposition {
+      overflow: hidden;
+      position: relative;
+    }
+    .fb_invisible {
+      display: none;
+    }
+    .fb_reset {
+      background: none;
+      border: 0px;
+      border-spacing: 0;
+      color: #000;
+      cursor: auto;
+      direction: ltr;
+      font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+      font-size: 11px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: normal;
+      letter-spacing: normal;
+      line-height: 1;
+      margin: 0;
+      overflow: visible;
+      padding: 0;
+      text-align: left;
+      text-decoration: none;
+      text-indent: 0;
+      text-shadow: none;
+      text-transform: none;
+      visibility: visible;
+      white-space: normal;
+      word-spacing: normal;
+    }
+    .fb_reset > div {
+      overflow: hidden;
+    }
+    @keyframes fb_transform {
+      from {
+        opacity: 0;
+        transform: scale(0.95);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+    .fb_animate {
+      animation: fb_transform 0.3s forwards;
+    }
+    .fb_dialog {
+      background: rgba(82, 82, 82, 0.7);
+      position: absolute;
+      top: -10000px;
+      z-index: 10001;
+    }
+    .fb_dialog_advanced {
+      border-radius: 8px;
+      padding: 10px;
+    }
+    .fb_dialog_content {
+      background: #fff;
+      color: #373737;
+    }
+    .fb_dialog_close_icon {
+      background: url(https://connect.facebook.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png)
+        no-repeat scroll 0 0 transparent;
+      cursor: pointer;
+      display: block;
+      height: 15px;
+      position: absolute;
+      right: 18px;
+      top: 17px;
+      width: 15px;
+    }
+    .fb_dialog_mobile .fb_dialog_close_icon {
+      left: 5px;
+      right: auto;
+      top: 5px;
+    }
+    .fb_dialog_padding {
+      background-color: transparent;
+      position: absolute;
+      width: 1px;
+      z-index: -1;
+    }
+    .fb_dialog_close_icon:hover {
+      background: url(https://connect.facebook.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png)
+        no-repeat scroll 0 -15px transparent;
+    }
+    .fb_dialog_close_icon:active {
+      background: url(https://connect.facebook.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png)
+        no-repeat scroll 0 -30px transparent;
+    }
+    .fb_dialog_iframe {
+      line-height: 0;
+    }
+    .fb_dialog_content .dialog_title {
+      background: #6d84b4;
+      border: 1px solid #365899;
+      color: #fff;
+      font-size: 14px;
+      font-weight: bold;
+      margin: 0;
+    }
+    .fb_dialog_content .dialog_title > span {
+      background: url(https://connect.facebook.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif)
+        no-repeat 5px 50%;
+      float: left;
+      padding: 5px 0 7px 26px;
+    }
+    body.fb_hidden {
+      height: 100%;
+      left: 0px;
+      margin: 0px;
+      overflow: visible;
+      position: absolute;
+      top: -10000px;
+      transform: none;
+      width: 100%;
+    }
+    .fb_dialog.fb_dialog_mobile.loading {
+      background: url(https://connect.facebook.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif)
+        white no-repeat 50% 50%;
+      min-height: 100%;
+      min-width: 100%;
+      overflow: hidden;
+      position: absolute;
+      top: 0;
+      z-index: 10001;
+    }
+    .fb_dialog.fb_dialog_mobile.loading.centered {
+      background: none;
+      height: auto;
+      min-height: initial;
+      min-width: initial;
+      width: auto;
+    }
+    .fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner {
+      width: 100%;
+    }
+    .fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content {
+      background: none;
+    }
+    .loading.centered #fb_dialog_loader_close {
+      clear: both;
+      color: #fff;
+      display: block;
+      font-size: 18px;
+      padding-top: 20px;
+    }
+    #fb-root #fb_dialog_ipad_overlay {
+      background: rgba(0, 0, 0, 0.4);
+      bottom: 0;
+      left: 0;
+      min-height: 100%;
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 100%;
+      z-index: 10000;
+    }
+    #fb-root #fb_dialog_ipad_overlay.hidden {
+      display: none;
+    }
+    .fb_dialog.fb_dialog_mobile.loading iframe {
+      visibility: hidden;
+    }
+    .fb_dialog_mobile .fb_dialog_iframe {
+      position: sticky;
+      top: 0;
+    }
+    .fb_dialog_content .dialog_header {
+      background: linear-gradient(from(#738aba), to(#2c4987));
+      border-bottom: 1px solid;
+      border-color: #043b87;
+      box-shadow: white 0px 1px 1px -1px inset;
+      color: #fff;
+      font:
+        bold 14px Helvetica,
+        sans-serif;
+      text-overflow: ellipsis;
+      text-shadow: rgba(0, 30, 84, 0.296875) 0px -1px 0px;
+      vertical-align: middle;
+      white-space: nowrap;
+    }
+    .fb_dialog_content .dialog_header table {
+      height: 43px;
+      width: 100%;
+    }
+    .fb_dialog_content .dialog_header td.header_left {
+      font-size: 12px;
+      padding-left: 5px;
+      vertical-align: middle;
+      width: 60px;
+    }
+    .fb_dialog_content .dialog_header td.header_right {
+      font-size: 12px;
+      padding-right: 5px;
+      vertical-align: middle;
+      width: 60px;
+    }
+    .fb_dialog_content .touchable_button {
+      background: linear-gradient(from(#4267b2), to(#2a4887));
+      background-clip: padding-box;
+      border: 1px solid #29487d;
+      border-radius: 3px;
+      display: inline-block;
+      line-height: 18px;
+      margin-top: 3px;
+      max-width: 85px;
+      padding: 4px 12px;
+      position: relative;
+    }
+    .fb_dialog_content .dialog_header .touchable_button input {
+      background: none;
+      border: none;
+      color: #fff;
+      font:
+        bold 12px Helvetica,
+        sans-serif;
+      margin: 2px -12px;
+      padding: 2px 6px 3px 6px;
+      text-shadow: rgba(0, 30, 84, 0.296875) 0px -1px 0px;
+    }
+    .fb_dialog_content .dialog_header .header_center {
+      color: #fff;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 18px;
+      text-align: center;
+      vertical-align: middle;
+    }
+    .fb_dialog_content .dialog_content {
+      background: url(https://connect.facebook.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif)
+        no-repeat 50% 50%;
+      border: 1px solid #4a4a4a;
+      border-bottom: 0;
+      border-top: 0;
+      height: 150px;
+    }
+    .fb_dialog_content .dialog_footer {
+      background: #f5f6f7;
+      border: 1px solid #4a4a4a;
+      border-top-color: #ccc;
+      height: 40px;
+    }
+    #fb_dialog_loader_close {
+      float: left;
+    }
+    .fb_dialog.fb_dialog_mobile .fb_dialog_close_icon {
+      visibility: hidden;
+    }
+    #fb_dialog_loader_spinner {
+      animation: rotateSpinner 1.2s linear infinite;
+      background-color: transparent;
+      background-image: url(https://connect.facebook.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      height: 24px;
+      width: 24px;
+    }
+    @keyframes rotateSpinner {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    .fb_iframe_widget {
+      display: inline-block;
+      position: relative;
+    }
+    .fb_iframe_widget span {
+      display: inline-block;
+      position: relative;
+      text-align: justify;
+    }
+    .fb_iframe_widget iframe {
+      position: absolute;
+    }
+    .fb_iframe_widget_fluid_desktop,
+    .fb_iframe_widget_fluid_desktop span,
+    .fb_iframe_widget_fluid_desktop iframe {
+      max-width: 100%;
+    }
+    .fb_iframe_widget_fluid_desktop iframe {
+      min-width: 220px;
+      position: relative;
+    }
+    .fb_iframe_widget_lift {
+      z-index: 1;
+    }
+    .fb_iframe_widget_fluid {
+      display: inline;
+    }
+    .fb_iframe_widget_fluid span {
+      width: 100%;
+    }
+  </style>
+  <script
+    type="text/javascript"
+    src="https://pi.pardot.com/analytics?ver=3&amp;visitor_id=1124383618&amp;visitor_id_sign=f5ee1be4fad2b428da2fa934ac6ecdb35c34ea06dae5ecb8c18e0f3189f697d17d5a711a83dac592c26d15fb64bb773a04d57455&amp;pi_opt_in=&amp;campaign_id=1262&amp;account_id=209162&amp;title=Duolingo%20English%20Test&amp;url=https%3A%2F%2Fcerts.duolingo.com%2Fen%2F7agbgeua9ymmdk1o&amp;referrer="
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://go.duolingo.com/analytics?conly=true&amp;visitor_id=1124383618&amp;visitor_id_sign=f5ee1be4fad2b428da2fa934ac6ecdb35c34ea06dae5ecb8c18e0f3189f697d17d5a711a83dac592c26d15fb64bb773a04d57455&amp;pi_opt_in=&amp;campaign_id=1262&amp;account_id=209162&amp;title=Duolingo%20English%20Test&amp;url=https%3A%2F%2Fcerts.duolingo.com%2Fen%2F7agbgeua9ymmdk1o&amp;referrer="
+  ></script>
+</head>
+<body class="">
+  
+  <div id="fb-root" class="fb_reset">
+    <div style="position: absolute; top: -10000px; width: 0px; height: 0px">
+      <div></div>
     </div>
-    <div id="app" onclick="" class="">
-      <div
-        style="
-          --color-snow: 255, 255, 255;
-          --color-snow-always-light: 255, 255, 255;
-          --color-snow-always-dark: 19, 31, 36;
-          --color-polar: 247, 247, 247;
-          --color-swan: 229, 229, 229;
-          --color-swan-always-light: 229, 229, 229;
-          --color-swan-always-dark: 55, 70, 79;
-          --color-hare: 175, 175, 175;
-          --color-hare-always-light: 175, 175, 175;
-          --color-wolf: 119, 119, 119;
-          --color-eel: 75, 75, 75;
-          --color-squid: 235, 227, 227;
-          --color-walking-fish: 255, 223, 224;
-          --color-flamingo: 255, 178, 178;
-          --color-pig: 245, 164, 164;
-          --color-crab: 255, 120, 120;
-          --color-cardinal: 255, 75, 75;
-          --color-fire-ant: 234, 43, 43;
-          --color-canary: 255, 245, 211;
-          --color-duck: 251, 229, 109;
-          --color-bee: 255, 200, 0;
-          --color-bee-always-dark: 255, 199, 0;
-          --color-lion: 255, 177, 0;
-          --color-fox: 255, 150, 0;
-          --color-cheetah: 255, 206, 142;
-          --color-monkey: 229, 162, 89;
-          --color-camel: 231, 166, 1;
-          --color-guinea-pig: 205, 121, 0;
-          --color-grizzly: 187, 113, 73;
-          --color-sea-sponge: 215, 255, 184;
-          --color-turtle: 165, 237, 110;
-          --color-owl: 88, 204, 2;
-          --color-tree-frog: 88, 167, 0;
-          --color-peacock: 0, 205, 156;
-          --color-iguana: 221, 244, 255;
-          --color-anchovy: 210, 228, 232;
-          --color-beluga: 187, 242, 255;
-          --color-moon-jelly: 122, 240, 242;
-          --color-blue-jay: 132, 216, 255;
-          --color-macaw: 28, 176, 246;
-          --color-whale: 24, 153, 214;
-          --color-humpback: 43, 112, 201;
-          --color-narwhal: 20, 83, 163;
-          --color-manta-ray: 4, 44, 96;
-          --color-starfish: 255, 134, 208;
-          --color-beetle: 206, 130, 255;
-          --color-betta: 144, 105, 205;
-          --color-butterfly: 111, 78, 161;
-          --color-dragon: 204, 52, 141;
-          --color-starling: 92, 108, 252;
-          --color-martin: 71, 85, 223;
-          --color-grackle: 167, 160, 255;
-          --color-honeycreeper: 193, 187, 255;
-          --color-deep-starling: 34, 33, 81;
-          --color-deep-martin: 16, 15, 62;
-          --color-legendary-foreground: 140, 65, 3;
-          --color-stardust: 199, 255, 254;
-          --color-cosmos: 60, 77, 255;
-          --color-nebula: 63, 34, 236;
-          --color-nova: 207, 23, 200;
-          --color-gamma: 38, 246, 99;
-          --color-starlight: 38, 138, 255;
-          --color-quasar: 252, 85, 255;
-          --color-celestia: 255, 255, 255;
-          --color-eclipse: 0, 4, 55;
-          --color-black: 0, 0, 0;
-          --color-aqua: 56, 238, 255;
-          --color-aqua-always-light: 56, 238, 255;
-          --color-ocean: 0, 124, 143;
-          --color-seafoam: 158, 224, 233;
-          --color-ice: 225, 253, 255;
-          --color-max-shadow: 20, 208, 225;
-        "
-      >
-        <div class="_15iZt" style="background-color: rgb(255, 255, 255)">
-          <div class="Gg06n _26dff _2nzup">
-            <header class="_3D2sZ">
-              <button class="FGKTH _2txTW">
-                <span
-                  class="_2NBfH _3NbB_"
-                  style="
-                    mask-image: url(&quot;./static/images/wp/b531189394e9793a7a91.svg&quot;);
-                  "
-                  ><img
-                    src="./static/images/wp/b531189394e9793a7a91.svg"
-                    alt="hamburger"
-                    style="opacity: 0"
-                /></span></button
-              ><a class="_3Ivnc" href="/test_takers"
+  </div>
+  <div id="app" onclick="" class="">
+    <div
+      style="
+        --color-snow: 255, 255, 255;
+        --color-snow-always-light: 255, 255, 255;
+        --color-snow-always-dark: 19, 31, 36;
+        --color-polar: 247, 247, 247;
+        --color-swan: 229, 229, 229;
+        --color-swan-always-light: 229, 229, 229;
+        --color-swan-always-dark: 55, 70, 79;
+        --color-hare: 175, 175, 175;
+        --color-hare-always-light: 175, 175, 175;
+        --color-wolf: 119, 119, 119;
+        --color-eel: 75, 75, 75;
+        --color-squid: 235, 227, 227;
+        --color-walking-fish: 255, 223, 224;
+        --color-flamingo: 255, 178, 178;
+        --color-pig: 245, 164, 164;
+        --color-crab: 255, 120, 120;
+        --color-cardinal: 255, 75, 75;
+        --color-fire-ant: 234, 43, 43;
+        --color-canary: 255, 245, 211;
+        --color-duck: 251, 229, 109;
+        --color-bee: 255, 200, 0;
+        --color-bee-always-dark: 255, 199, 0;
+        --color-lion: 255, 177, 0;
+        --color-fox: 255, 150, 0;
+        --color-cheetah: 255, 206, 142;
+        --color-monkey: 229, 162, 89;
+        --color-camel: 231, 166, 1;
+        --color-guinea-pig: 205, 121, 0;
+        --color-grizzly: 187, 113, 73;
+        --color-sea-sponge: 215, 255, 184;
+        --color-turtle: 165, 237, 110;
+        --color-owl: 88, 204, 2;
+        --color-tree-frog: 88, 167, 0;
+        --color-peacock: 0, 205, 156;
+        --color-iguana: 221, 244, 255;
+        --color-anchovy: 210, 228, 232;
+        --color-beluga: 187, 242, 255;
+        --color-moon-jelly: 122, 240, 242;
+        --color-blue-jay: 132, 216, 255;
+        --color-macaw: 28, 176, 246;
+        --color-whale: 24, 153, 214;
+        --color-humpback: 43, 112, 201;
+        --color-narwhal: 20, 83, 163;
+        --color-manta-ray: 4, 44, 96;
+        --color-starfish: 255, 134, 208;
+        --color-beetle: 206, 130, 255;
+        --color-betta: 144, 105, 205;
+        --color-butterfly: 111, 78, 161;
+        --color-dragon: 204, 52, 141;
+        --color-starling: 92, 108, 252;
+        --color-martin: 71, 85, 223;
+        --color-grackle: 167, 160, 255;
+        --color-honeycreeper: 193, 187, 255;
+        --color-deep-starling: 34, 33, 81;
+        --color-deep-martin: 16, 15, 62;
+        --color-legendary-foreground: 140, 65, 3;
+        --color-stardust: 199, 255, 254;
+        --color-cosmos: 60, 77, 255;
+        --color-nebula: 63, 34, 236;
+        --color-nova: 207, 23, 200;
+        --color-gamma: 38, 246, 99;
+        --color-starlight: 38, 138, 255;
+        --color-quasar: 252, 85, 255;
+        --color-celestia: 255, 255, 255;
+        --color-eclipse: 0, 4, 55;
+        --color-black: 0, 0, 0;
+        --color-aqua: 56, 238, 255;
+        --color-aqua-always-light: 56, 238, 255;
+        --color-ocean: 0, 124, 143;
+        --color-seafoam: 158, 224, 233;
+        --color-ice: 225, 253, 255;
+        --color-max-shadow: 20, 208, 225;
+      "
+    >
+      <div class="_15iZt" style="background-color: rgb(255, 255, 255)">
+        <div class="Gg06n _26dff _2nzup">
+          <header class="_3D2sZ">
+            <button class="FGKTH _2txTW">
+              <span
+                class="_2NBfH _3NbB_"
+                style="
+                  mask-image: url(&quot;./static/images/wp/b531189394e9793a7a91.svg&quot;);
+                "
                 ><img
-                  src="./static/images/wp/557e9cb1ce105779cdb5.svg"
-                  alt="logo"
-                  class="_99S1j" /></a
-              ><button class="_1u574 _2txTW">
-                <span
-                  class="_2NBfH _3NbB_"
-                  style="
-                    mask-image: url(&quot;./static/images/wp/b531189394e9793a7a91.svg&quot;);
-                  "
-                  ><img
-                    src="./static/images/wp/b531189394e9793a7a91.svg"
-                    alt="hamburger"
-                    style="opacity: 0"
-                /></span>
-              </button>
-              <nav class="_3P_ax">
-                <span class="F6iXQ"
-                  ><button class="_3Qe-n">
-                    Site language<span
-                      class="_2NBfH _13ppW _1Wweo"
-                      style="
-                        mask-image: url(&quot;./static/images/wp/7ed849c6396edac2bb15.svg&quot;);
-                      "
-                      ><img
-                        src="./static/images/wp/7ed849c6396edac2bb15.svg"
-                        alt="arrow"
-                        class="_1Wweo"
-                        style="opacity: 0"
-                    /></span></button
-                ></span>
-              </nav>
-            </header>
-          </div>
-          <div
-            class="_2Qo3v _26dff _2nzup"
-            style="background-color: rgb(255, 255, 255)"
-          >
-            <div>
-              <div class="_169tb">
-                <nav class="_3CUPU">
-                  <span class="HSIQL _1hLom"
-                    ><span class="_2jjpO _1hLom"
-                      ><div class="_36VF2" data-test="taking-the-test">
-                        <div class="_3tGvk">Taking the Test</div>
-                      </div>
-                      <img
-                        src="./static/images/wp/7ed849c6396edac2bb15.svg"
-                        alt="arrow"
-                        class="_3L8Z_" /></span
-                    ><span class="_2jjpO _1hLom"
-                      ><div class="_36VF2" data-test="accepting-the-test">
-                        <div class="_3tGvk">Accepting the Test</div>
-                      </div>
-                      <img
-                        src="./static/images/wp/7ed849c6396edac2bb15.svg"
-                        alt="arrow"
-                        class="_3L8Z_" /></span
-                    ><span class="_2jjpO _1hLom"
-                      ><div class="_36VF2" data-test="test-research">
-                        <div class="_3tGvk">Test Research</div>
-                      </div>
-                      <img
-                        src="./static/images/wp/7ed849c6396edac2bb15.svg"
-                        alt="arrow"
-                        class="_3L8Z_" /></span></span
-                  ><span class="_3PyKh"></span
-                  ><span class="I_K7K _1hLom"
-                    ><button
-                      class="_2iTrs _268JG _3oUfi _2G8O7 kJBQe _1g8lu _2jywy _1kxAN"
-                      data-test="login-button"
+                  src="./static/images/wp/b531189394e9793a7a91.svg"
+                  alt="hamburger"
+                  style="opacity: 0"
+              /></span></button
+            ><a class="_3Ivnc" href="/test_takers"
+              ><img
+                src="./static/images/wp/557e9cb1ce105779cdb5.svg"
+                alt="logo"
+                class="_99S1j" /></a
+            ><button class="_1u574 _2txTW">
+              <span
+                class="_2NBfH _3NbB_"
+                style="
+                  mask-image: url(&quot;./static/images/wp/b531189394e9793a7a91.svg&quot;);
+                "
+                ><img
+                  src="./static/images/wp/b531189394e9793a7a91.svg"
+                  alt="hamburger"
+                  style="opacity: 0"
+              /></span>
+            </button>
+            <nav class="_3P_ax">
+              <span class="F6iXQ"
+                ><button class="_3Qe-n">
+                  Site language<span
+                    class="_2NBfH _13ppW _1Wweo"
+                    style="
+                      mask-image: url(&quot;./static/images/wp/7ed849c6396edac2bb15.svg&quot;);
+                    "
+                    ><img
+                      src="./static/images/wp/7ed849c6396edac2bb15.svg"
+                      alt="arrow"
+                      class="_1Wweo"
+                      style="opacity: 0"
+                  /></span></button
+              ></span>
+            </nav>
+          </header>
+        </div>
+        <div
+          class="_2Qo3v _26dff _2nzup"
+          style="background-color: rgb(255, 255, 255)"
+        >
+          <div>
+            <div class="_169tb">
+              <nav class="_3CUPU">
+                <span class="HSIQL _1hLom"
+                  ><span class="_2jjpO _1hLom"
+                    ><div class="_36VF2" data-test="taking-the-test">
+                      <div class="_3tGvk">Taking the Test</div>
+                    </div>
+                    <img
+                      src="./static/images/wp/7ed849c6396edac2bb15.svg"
+                      alt="arrow"
+                      class="_3L8Z_" /></span
+                  ><span class="_2jjpO _1hLom"
+                    ><div class="_36VF2" data-test="accepting-the-test">
+                      <div class="_3tGvk">Accepting the Test</div>
+                    </div>
+                    <img
+                      src="./static/images/wp/7ed849c6396edac2bb15.svg"
+                      alt="arrow"
+                      class="_3L8Z_" /></span
+                  ><span class="_2jjpO _1hLom"
+                    ><div class="_36VF2" data-test="test-research">
+                      <div class="_3tGvk">Test Research</div>
+                    </div>
+                    <img
+                      src="./static/images/wp/7ed849c6396edac2bb15.svg"
+                      alt="arrow"
+                      class="_3L8Z_" /></span></span
+                ><span class="_3PyKh"></span
+                ><span class="I_K7K _1hLom"
+                  ><a
+                    href="https://englishtest.duolingo.com/login"
+                    class="_2iTrs _268JG _3oUfi _2G8O7 kJBQe _1g8lu _2jywy _1kxAN"
+                    data-test="login-button"
+                  >
+                    <span class="_3L1UU" style="visibility: hidden"
+                      ><div
+                        class="web-ui__LoadingDots-module--wrap-button web-ui__LoadingDots-module--_wrap"
+                      >
+                        <div
+                          class="web-ui__LoadingDots-module--first web-ui__LoadingDots-module--_dot"
+                        ></div>
+                        <div
+                          class="web-ui__LoadingDots-module--second web-ui__LoadingDots-module--_dot"
+                        ></div>
+                        <div
+                          class="web-ui__LoadingDots-module--third web-ui__LoadingDots-module--_dot"
+                        ></div></div></span
+                    ><span class="_3L1UU" style="visibility: visible"
+                      >LOG IN</span
+                    ></a
+                  ><span class="_1oSvW"
+                    ><a
+                    href="https://englishtest.duolingo.com/register"
+                      class="_2iTrs _268JG _3oUfi _2G8O7 kJBQe _3hMYx _2tNhf _1kxAN"
+                      data-test="register-button"
                     >
                       <span class="_3L1UU" style="visibility: hidden"
                         ><div
@@ -1206,757 +1232,725 @@
                             class="web-ui__LoadingDots-module--third web-ui__LoadingDots-module--_dot"
                           ></div></div></span
                       ><span class="_3L1UU" style="visibility: visible"
-                        >LOG IN</span
-                      ></button
-                    ><span class="_1oSvW"
-                      ><button
-                        class="_2iTrs _268JG _3oUfi _2G8O7 kJBQe _3hMYx _2tNhf _1kxAN"
-                        data-test="register-button"
+                        >SIGN UP</span
                       >
-                        <span class="_3L1UU" style="visibility: hidden"
-                          ><div
-                            class="web-ui__LoadingDots-module--wrap-button web-ui__LoadingDots-module--_wrap"
-                          >
-                            <div
-                              class="web-ui__LoadingDots-module--first web-ui__LoadingDots-module--_dot"
-                            ></div>
-                            <div
-                              class="web-ui__LoadingDots-module--second web-ui__LoadingDots-module--_dot"
-                            ></div>
-                            <div
-                              class="web-ui__LoadingDots-module--third web-ui__LoadingDots-module--_dot"
-                            ></div></div></span
-                        ><span class="_3L1UU" style="visibility: visible"
-                          >SIGN UP</span
-                        >
-                      </button></span
-                    ></span
-                  >
-                </nav>
-              </div>
-              <div class="a7GBS"></div>
+                </a></span
+                  ></span
+                >
+              </nav>
             </div>
+            <div class="a7GBS"></div>
           </div>
-          <div class="_1Pbn5 _2nzup"><div class="_3KvuO"></div></div>
-          <div class="_1ZIWg _2nzup">
-            <div class="_3KvuO">
-              <div class="_2HG-o _3y_wi TxR4u undefined">
-                <div class="_3UJnX _3RA5c">
-                  <div class="_2Qpr9">
-                    <p class="_1Ycii">Certificate</p>
-                    <div class="_3mZxb">
-                      <button
-                        class="lidYP rvjxI _2oSyN _30Pnx _3iBSc _3F6wx chxL4 AiM89 _3Rs-V _3ZVET"
-                        onclick="handlePrint()"
-                      >
-                        <img
-                          src="./static/images/wp/33882a0d792d674dd0a9.svg"
-                          alt=""
-                          class="_1svC_"
-                        /><span class="_2EDV0">Print results</span>
-                      </button>
+        </div>
+        <div class="_1Pbn5 _2nzup"><div class="_3KvuO"></div></div>
+        <div class="_1ZIWg _2nzup">
+          <div class="_3KvuO">
+            <div class="_2HG-o _3y_wi TxR4u undefined">
+              <div class="_3UJnX _3RA5c">
+                <div class="_2Qpr9">
+                  <p class="_1Ycii">Certificate</p>
+                  <div class="_3mZxb">
+                    <button
+                      class="lidYP rvjxI _2oSyN _30Pnx _3iBSc _3F6wx chxL4 AiM89 _3Rs-V _3ZVET"
+                      onclick="handlePrint()"
+                    >
+                      <img
+                        src="./static/images/wp/33882a0d792d674dd0a9.svg"
+                        alt=""
+                        class="_1svC_"
+                      /><span class="_2EDV0">Print results</span>
+                    </button>
+                  </div>
+                </div>
+                <div class="_3cRTx">
+                  <div class="_3zIjc">
+                    <img
+                      src="./static/images/wp/557e9cb1ce105779cdb5.svg"
+                      alt="Duolingo English Test"
+                      class="_1RsHF"
+                    />
+                    <div class="nNy2I _3Lxgq">OFFICIAL CERTIFICATE</div>
+                  </div>
+                  <div class="_2wxOn">
+                    <img
+                      src="./static//images/wp/avatar.jpeg"
+                      alt=""
+                      class="_2VpiL"
+                    />
+                    <div class="_1KpJ2">
+                      <div>
+                        <h3 class="_2caFo _3DulP _1itor">
+                          Weng, BinBin
+                        </h3>
+                        <h3 class="_2caFo _3DulP _1itor">
+                          翁, 斌斌
+                        </h3>
+                      </div>
+                      <div class="_1lAXu">
+                        <div class="_2TW5O">
+                          <p class="_3yi0W">Date of birth:</p>
+                          <p class="_1KpJ2">September 15, 1992</p>
+                        </div>
+                        <div class="_2TW5O">
+                          <p class="_3yi0W">Certificate ID:</p>
+                          <p class="_1KpJ2">dbqncizs2kuO18ra</p>
+                        </div>
+                        <div class="_2TW5O">
+                          <p class="_3yi0W">Test taken:</p>
+                          <p class="_1KpJ2">December 15, 2024</p>
+                        </div>
+                        <div class="_2TW5O">
+                          <p class="_3yi0W">Link:</p>
+                          <a
+                            class="_3xW1t _1xE_S _3oUfi _3Q1J4"
+                            href="https://certs.duolingo.net.cn/dbqncizs2kuO18ra"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            data-bypass="true"
+                            >certs.duolingo.com/dbqncizs2kuO18ra</a
+                          >
+                        </div>
+                      </div>
                     </div>
                   </div>
-                  <div class="_3cRTx">
-                    <div class="_3zIjc">
-                      <img
-                        src="./static/images/wp/557e9cb1ce105779cdb5.svg"
-                        alt="Duolingo English Test"
-                        class="_1RsHF"
-                      />
-                      <div class="nNy2I _3Lxgq">OFFICIAL CERTIFICATE</div>
-                    </div>
-                    <div class="_2wxOn">
-                      <img
-                        src="./static//images/wp/avatar.jpeg"
-                        alt=""
-                        class="_2VpiL"
-                      />
-                      <div class="_1KpJ2">
-                        <div>
-                          <h3 class="_2caFo _3DulP _1itor">
-                            Weng, BinBin
-                          </h3>
-                        </div>
-                        <div class="_1lAXu">
-                          <div class="_2TW5O">
-                            <p class="_3yi0W">Date of birth:</p>
-                            <p class="_1KpJ2">September 15, 1992</p>
+                  <div>
+                    <h3 class="_36rm7 _3DulP _1itor">Overall Score</h3>
+                    <div class="_1uPHE">
+                      <div class="_36pmY">
+                        <div class="_2Vfb6"><svg viewBox="30 20 200 200" width="100%" height="100%"><svg viewBox="-100 -100 200 200" width="200px" height="200px" x="30" y="30"><path d="M -77.94228634059948 44.99999999999999 A 90 90 0 1 1 77.94228634059948 44.99999999999999" fill="none" stroke="#e5e5e5" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"></path><path d="M -77.94228634059948 44.99999999999999 A 90 90 0 0 1 47.69273378098842 -76.32432865407836" fill="none" stroke="#ffc800" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"></path><text x="-80" y="72" fill="#67737e" font-size="16px" text-anchor="middle" font-weight="700">10</text><text x="80" y="72" fill="#67737e" font-size="16px" text-anchor="middle" font-weight="700">160</text><text x="0" y="16" fill="#4b4b4b" font-size="64px" text-anchor="middle" font-weight="700">100</text></svg></svg></div>
+                        <div class="_2Pjh3">
+                          <h4 class="_3Tjm5 _3dyvT _3mGoq">
+                            Upper Intermediate: CEFR B2
+                          </h4>
+                          <div class="_2LGpw">
+                            <img
+                              src="./static/images/wp/4b1a35002cdbc588d8ef.svg"
+                              alt=""
+                            />
+                            <p class="_2cMJO _1YjEl _1BfTs _2QV4d">
+                              Can understand concepts of complex text on
+                              concrete and abstract topics, including technical
+                              discussions in areas of expertise.
+                            </p>
                           </div>
-                          <div class="_2TW5O">
-                            <p class="_3yi0W">Certificate ID:</p>
-                            <p class="_1KpJ2">dbqncizs2ku018ra</p>
+                          <div class="_2LGpw">
+                            <img
+                              src="./static/images/wp/4b1a35002cdbc588d8ef.svg"
+                              alt=""
+                            />
+                            <p class="_2cMJO _1YjEl _1BfTs _2QV4d">
+                              Can interact with a degree of fluency and
+                              spontaneity that makes regular interaction
+                              effortless.
+                            </p>
                           </div>
-                          <div class="_2TW5O">
-                            <p class="_3yi0W">Test taken:</p>
-                            <p class="_1KpJ2">December 15, 2024</p>
-                          </div>
-                          <div class="_2TW5O">
-                            <p class="_3yi0W">Link:</p>
-                            <a
-                              class="_3xW1t _1xE_S _3oUfi _3Q1J4"
-                              href="https://certs.duolingo.net.cn/dbqncizs2ku018ra"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              data-bypass="true"
-                              >certs.duolingo.com/dbqncizs2ku018ra</a
-                            >
+                          <div class="_2LGpw">
+                            <img
+                              src="./static/images/wp/4b1a35002cdbc588d8ef.svg"
+                              alt=""
+                            />
+                            <p class="_2cMJO _1YjEl _1BfTs _2QV4d">
+                              Can produce clear, detailed texts on various
+                              topics of interest, synthesizing and evaluating
+                              source material.
+                            </p>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div>
-                      <h3 class="_36rm7 _3DulP _1itor">Overall Score</h3>
-                      <div class="_1uPHE">
-                        <div class="_36pmY">
-                          <div class="_2Vfb6">
-                            <svg viewBox="-100 -100 200 200" width="200px" height="200px" x="30" y="30">
-                                <path d="M -77.94228634059948 44.99999999999999 A 90 90 0 1 1 77.94228634059948 44.99999999999999" fill="none" stroke="#e5e5e5" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M -77.94228634059948 44.99999999999999 A 90 90 0 0 1 33.77856756310861 -83.48792621641954" fill="none" stroke="#ffc800" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <text x="-80" y="72" fill="#67737e" font-size="16px" text-anchor="middle" font-weight="700">
-                                  10
-                                </text>
-                                <text x="80" y="72" fill="#67737e" font-size="16px" text-anchor="middle" font-weight="700">
-                                  160
-                                </text>
-                                <text x="0" y="16" fill="#4b4b4b" font-size="64px" text-anchor="middle" font-weight="700">
-                                  100
-                                </text>
-                              </svg>
-                          </div>
-                          <div class="_2Pjh3">
-                            <h4 class="_3Tjm5 _3dyvT _3mGoq">
-                              Upper Intermediate: CEFR B2
-                            </h4>
-                            <div class="_2LGpw">
-                              <img
-                                src="./static/images/wp/4b1a35002cdbc588d8ef.svg"
-                                alt=""
-                              />
-                              <p class="_2cMJO _1YjEl _1BfTs _2QV4d">
-                                Can understand concepts of complex text on
-                                concrete and abstract topics, including technical
-                                discussions in areas of expertise.
-                              </p>
-                            </div>
-                            <div class="_2LGpw">
-                              <img
-                                src="./static/images/wp/4b1a35002cdbc588d8ef.svg"
-                                alt=""
-                              />
-                              <p class="_2cMJO _1YjEl _1BfTs _2QV4d">
-                                Can interact with a degree of fluency and
-                                spontaneity that makes regular interaction
-                                effortless.
-                              </p>
-                            </div>
-                            <div class="_2LGpw">
-                              <img
-                                src="./static/images/wp/4b1a35002cdbc588d8ef.svg"
-                                alt=""
-                              />
-                              <p class="_2cMJO _1YjEl _1BfTs _2QV4d">
-                                Can produce clear, detailed texts on various
-                                topics of interest, synthesizing and evaluating
-                                source material.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
+                  </div>
+                  <div>
+                    <h3 class="_36rm7 _3DulP _1itor">Individual Subscores</h3>
+                    <div class="zZ2yF">
+                      <div class="_75EhL">
+                        <h4 class="_1sfdv _3dyvT _3mGoq">SPEAKING</h4>
+                        <h2 class="_2n6WY _1VTgW _1pvlf">95</h2>
+                      </div>
+                      <div class="_75EhL">
+                        <h4 class="_1sfdv _3dyvT _3mGoq">WRITING</h4>
+                        <h2 class="_2n6WY _1VTgW _1pvlf">90</h2>
+                      </div>
+                      <div class="_75EhL">
+                        <h4 class="_1sfdv _3dyvT _3mGoq">READING</h4>
+                        <h2 class="_2n6WY _1VTgW _1pvlf">110</h2>
+                      </div>
+                      <div class="_75EhL">
+                        <h4 class="_1sfdv _3dyvT _3mGoq">LISTENING</h4>
+                        <h2 class="_2n6WY _1VTgW _1pvlf">105</h2>
                       </div>
                     </div>
-                    <div>
-                      <h3 class="_36rm7 _3DulP _1itor">Individual Subscores</h3>
-                      <div class="zZ2yF">
-                        <div class="_75EhL">
-                          <h4 class="_1sfdv _3dyvT _3mGoq">SPEAKING</h4>
-                          <h2 class="_2n6WY _1VTgW _1pvlf">95</h2>
-                        </div>
-                        <div class="_75EhL">
-                          <h4 class="_1sfdv _3dyvT _3mGoq">WRITING</h4>
-                          <h2 class="_2n6WY _1VTgW _1pvlf">90</h2>
-                        </div>
-                        <div class="_75EhL">
-                          <h4 class="_1sfdv _3dyvT _3mGoq">READING</h4>
-                          <h2 class="_2n6WY _1VTgW _1pvlf">110</h2>
-                        </div>
-                        <div class="_75EhL">
-                          <h4 class="_1sfdv _3dyvT _3mGoq">LISTENING</h4>
-                          <h2 class="_2n6WY _1VTgW _1pvlf">105</h2>
-                        </div>
+                  </div>
+                  <div>
+                    <h3 class="_36rm7 _3DulP _1itor">Integrated Subscores</h3>
+                    <div class="zZ2yF">
+                      <div class="_75EhL">
+                        <h4 class="_1sfdv _3dyvT _3mGoq">PRODUCTION</h4>
+                        <h2 class="_2n6WY _1VTgW _1pvlf">95</h2>
+                        <p class="_2aeKw _1BfTs">Ability to speak and write</p>
+                      </div>
+                      <div class="_75EhL">
+                        <h4 class="_1sfdv _3dyvT _3mGoq">LITERACY</h4>
+                        <h2 class="_2n6WY _1VTgW _1pvlf">100</h2>
+                        <p class="_2aeKw _1BfTs">Ability to write and read</p>
+                      </div>
+                      <div class="_75EhL">
+                        <h4 class="_1sfdv _3dyvT _3mGoq">COMPREHENSION</h4>
+                        <h2 class="_2n6WY _1VTgW _1pvlf">110</h2>
+                        <p class="_2aeKw _1BfTs">Ability to read and listen</p>
+                      </div>
+                      <div class="_75EhL">
+                        <h4 class="_1sfdv _3dyvT _3mGoq">CONVERSATION</h4>
+                        <h2 class="_2n6WY _1VTgW _1pvlf">100</h2>
+                        <p class="_2aeKw _1BfTs">Ability to listen and speak</p>
                       </div>
                     </div>
-                    <div>
-                      <h3 class="_36rm7 _3DulP _1itor">Integrated Subscores</h3>
-                      <div class="zZ2yF">
-                        <div class="_75EhL">
-                          <h4 class="_1sfdv _3dyvT _3mGoq">PRODUCTION</h4>
-                          <h2 class="_2n6WY _1VTgW _1pvlf">95</h2>
-                          <p class="_2aeKw _1BfTs">Ability to speak and write</p>
-                        </div>
-                        <div class="_75EhL">
-                          <h4 class="_1sfdv _3dyvT _3mGoq">LITERACY</h4>
-                          <h2 class="_2n6WY _1VTgW _1pvlf">100</h2>
-                          <p class="_2aeKw _1BfTs">Ability to write and read</p>
-                        </div>
-                        <div class="_75EhL">
-                          <h4 class="_1sfdv _3dyvT _3mGoq">COMPREHENSION</h4>
-                          <h2 class="_2n6WY _1VTgW _1pvlf">110</h2>
-                          <p class="_2aeKw _1BfTs">Ability to read and listen</p>
-                        </div>
-                        <div class="_75EhL">
-                          <h4 class="_1sfdv _3dyvT _3mGoq">CONVERSATION</h4>
-                          <h2 class="_2n6WY _1VTgW _1pvlf">100</h2>
-                          <p class="_2aeKw _1BfTs">Ability to listen and speak</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="_3sXKm">
-                      All scores are on a scale of 10-160. Learn more about scores
-                      at
-                      <a
-                        class="_3xW1t _1xE_S _3oUfi _3Q1J4"
-                        href="https://englishtest.duolingo.com/scores"
-                        >englishtest.duolingo.com/scores</a
-                      >
-                    </div>
+                  </div>
+                  <div class="_3sXKm">
+                    All scores are on a scale of 10-160. Learn more about scores
+                    at
+                    <a
+                      class="_3xW1t _1xE_S _3oUfi _3Q1J4"
+                      href="https://englishtest.duolingo.com/scores"
+                      >englishtest.duolingo.com/scores</a
+                    >
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <footer class="_25tfx">
-            <div class="_1Fga4">
-              <div class="_1fKK7">
-                <a
-                  class="_2Amba"
+        </div>
+        <footer class="_25tfx">
+          <div class="_1Fga4">
+            <div class="_1fKK7">
+              <a
+                class="_2Amba"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-bypass="true"
+                href="/home"
+                ><img
+                  src="./static/images/wp/557e9cb1ce105779cdb5.svg"
+                  alt="Duolingo English Test"
+              /></a>
+              <div>
+                <div class="_2Jc39">
+                  <div class="_25lUI"><div>Site language</div></div>
+                  <div>
+                    <label class="_1Aepg"
+                      ><div class="vGREg Jo2-J">
+                        <div class="_1qb7-">
+                          <label class="_2IQwi Jo2-J _2YXFO undefined"
+                            ><div class="_2e3TH">
+                              <input
+                                readonly=""
+                                tabindex="0"
+                                class="_7m3R7 g8GyX"
+                                value="English"
+                              />
+                            </div>
+                            <img
+                              src="./static/images/wp/d6404c2bb0afe8d9d39c.svg"
+                              alt="↓"
+                          /></label>
+                        </div></div
+                    ></label>
+                  </div>
+                </div>
+              </div>
+              <div class="_2oYw6">
+                <div class="_2-5gj">
+                  <img
+                    src="./static/images/wp/7dc94e8da52862112cf5.svg"
+                    alt="YouTube"
+                    class="_203-H"
+                  /><a
+                    class="_3wvv7 _2fSGo"
+                    href="https://www.youtube.com/c/DuolingoEnglishTest"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    data-bypass="true"
+                    >YouTube</a
+                  >
+                </div>
+                <div class="_2-5gj">
+                  <img
+                    src="./static/images/wp/9d51246d207d8fb680cb.svg"
+                    alt="LinkedIn"
+                    class="_203-H"
+                  /><a
+                    class="_3wvv7 _2fSGo"
+                    href="https://www.linkedin.com/company/duolingo-english-test-/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    data-bypass="true"
+                    >LinkedIn</a
+                  >
+                </div>
+                <div class="_2-5gj">
+                  <img
+                    src="./static/images/wp/189749344f97b6b46dc9.svg"
+                    alt="Twitter"
+                    class="_203-H"
+                  /><a
+                    class="_3wvv7 _2fSGo"
+                    href="https://twitter.com/duolingoentest"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    data-bypass="true"
+                    >Twitter</a
+                  >
+                </div>
+                <div class="_2-5gj">
+                  <img
+                    src="./static/images/wp/04e779ccd280d7cf731f.svg"
+                    alt="Facebook"
+                    class="_203-H"
+                  /><a
+                    class="_3wvv7 _2fSGo"
+                    href="https://www.facebook.com/duolingoenglishtest/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    data-bypass="true"
+                    >Facebook</a
+                  >
+                </div>
+                <div class="_2-5gj">
+                  <img
+                    src="./static/images/wp/b5faa850eeae8408ff66.svg"
+                    alt="Instagram"
+                    class="_203-H"
+                  /><a
+                    class="_3wvv7 _2fSGo"
+                    href="https://www.instagram.com/duolingoenglishtest/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    data-bypass="true"
+                    >Instagram</a
+                  >
+                </div>
+              </div>
+              <div><span class="_1mN1P">©2023 Duolingo</span></div>
+            </div>
+            <div class="_1fmrK">
+              <div class="_1rg1g">
+                <h5 class="_2ukD7 _2baiJ undefined">Taking the Test</h5>
+                <a class="_2GbNa" href="https://englishtest.duolingo.com/test_takers">Overview</a
+                ><a class="_2GbNa" href="https://englishtest.duolingo.com/test_takers/accepting_institutions"
+                  >Accepting Institutions</a
+                ><a class="_2GbNa" href="https://englishtest.duolingo.com/test_takers/stories"
+                  >Student Stories</a
+                ><a class="_2GbNa" href="https://englishtest.duolingo.com/prepare">Prepare</a
+                ><a class="_2GbNa" href="https://englishtest.duolingo.com/prepare/guide">Official Test Guide</a
+                ><a class="_2GbNa" href="https://englishtest.duolingo.com/dashboard/resources">Resources</a
+                ><a class="_2GbNa" href="https://englishtest.duolingo.com/test_takers/accommodations"
+                  >Accommodations</a
+                ><a class="_2GbNa" href="https://englishtest.duolingo.com/test/practice">Practice Free</a
+                ><a class="_2GbNa" href="https://englishtest.duolingo.com/pay">Purchase the Test</a>
+              </div>
+              <div class="_1rg1g">
+                <h5 class="_2ukD7 _2baiJ undefined">Accepting the Test</h5>
+                <a class="_2GbNa" href="https://englishtest.duolingo.com/institutions/overview">Overview</a
+                ><a class="_2GbNa" href="https://englishtest.duolingo.com/institutions/scores">Test Scoring</a
+                ><a class="_2GbNa" href="https://englishtest.duolingo.com/institutions/security"
+                  >Test Security</a
+                ><a class="_2GbNa" href="https://englishtest.duolingo.com/institutions/access">Access Program</a
+                ><a class="_2GbNa" href="https://englishtest.duolingo.com/prepare/guide">Test Readiness Guide</a
+                ><a class="_2GbNa" href="https://englishtest.duolingo.com/institutions/resources">Resources</a
+                ><a class="_2GbNa" href="https://englishtest.duolingo.com/test_takers/accepting_institutions"
+                  >Accepting Institutions</a
+                ><a class="_2GbNa" href="https://englishtest.duolingo.com/dashboard/invitations"
+                  >Send Test Invitations</a
+                >
+              </div>
+              <div class="_1rg1g">
+                <h5 class="_2ukD7 _2baiJ undefined">Test research</h5>
+                <a class="_2GbNa" href="https://englishtest.duolingo.com/research">Overview</a
+                ><a class="_2GbNa" href="https://englishtest.duolingo.com/research/publications">Publications</a
+                ><a class="_2GbNa" href="https://englishtest.duolingo.com/research/standards">Standards</a
+                ><a class="_2GbNa" href="https://englishtest.duolingo.com/research/our_team">Our Team</a
+                ><a class="_2GbNa" href="https://englishtest.duolingo.com/research/grants">Grants and Awards</a
+                ><a
+                  class="_2GbNa"
+                  href="https://blog.englishtest.duolingo.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   data-bypass="true"
-                  href="/home"
-                  ><img
-                    src="./static/images/wp/557e9cb1ce105779cdb5.svg"
-                    alt="Duolingo English Test"
-                /></a>
-                <div>
-                  <div class="_2Jc39">
-                    <div class="_25lUI"><div>Site language</div></div>
-                    <div>
-                      <label class="_1Aepg"
-                        ><div class="vGREg Jo2-J">
-                          <div class="_1qb7-">
-                            <label class="_2IQwi Jo2-J _2YXFO undefined"
-                              ><div class="_2e3TH">
-                                <input
-                                  readonly=""
-                                  tabindex="0"
-                                  class="_7m3R7 g8GyX"
-                                  value="English"
-                                />
-                              </div>
-                              <img
-                                src="./static/images/wp/d6404c2bb0afe8d9d39c.svg"
-                                alt="↓"
-                            /></label>
-                          </div></div
-                      ></label>
-                    </div>
-                  </div>
-                </div>
-                <div class="_2oYw6">
-                  <div class="_2-5gj">
-                    <img
-                      src="./static/images/wp/7dc94e8da52862112cf5.svg"
-                      alt="YouTube"
-                      class="_203-H"
-                    /><a
-                      class="_3wvv7 _2fSGo"
-                      href="https://www.youtube.com/c/DuolingoEnglishTest"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      data-bypass="true"
-                      >YouTube</a
-                    >
-                  </div>
-                  <div class="_2-5gj">
-                    <img
-                      src="./static/images/wp/9d51246d207d8fb680cb.svg"
-                      alt="LinkedIn"
-                      class="_203-H"
-                    /><a
-                      class="_3wvv7 _2fSGo"
-                      href="https://www.linkedin.com/company/duolingo-english-test-/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      data-bypass="true"
-                      >LinkedIn</a
-                    >
-                  </div>
-                  <div class="_2-5gj">
-                    <img
-                      src="./static/images/wp/189749344f97b6b46dc9.svg"
-                      alt="Twitter"
-                      class="_203-H"
-                    /><a
-                      class="_3wvv7 _2fSGo"
-                      href="https://twitter.com/duolingoentest"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      data-bypass="true"
-                      >Twitter</a
-                    >
-                  </div>
-                  <div class="_2-5gj">
-                    <img
-                      src="./static/images/wp/04e779ccd280d7cf731f.svg"
-                      alt="Facebook"
-                      class="_203-H"
-                    /><a
-                      class="_3wvv7 _2fSGo"
-                      href="https://www.facebook.com/duolingoenglishtest/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      data-bypass="true"
-                      >Facebook</a
-                    >
-                  </div>
-                  <div class="_2-5gj">
-                    <img
-                      src="./static/images/wp/b5faa850eeae8408ff66.svg"
-                      alt="Instagram"
-                      class="_203-H"
-                    /><a
-                      class="_3wvv7 _2fSGo"
-                      href="https://www.instagram.com/duolingoenglishtest/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      data-bypass="true"
-                      >Instagram</a
-                    >
-                  </div>
-                </div>
-                <div><span class="_1mN1P">©2023 Duolingo</span></div>
+                  >Blog</a
+                >
               </div>
-              <div class="_1fmrK">
-                <div class="_1rg1g">
-                  <h5 class="_2ukD7 _2baiJ undefined">Taking the Test</h5>
-                  <a class="_2GbNa" href="https://certs.duolingo.com/en/test_takers">Overview</a
-                  ><a class="_2GbNa" href="https://certs.duolingo.com/en/test_takers/accepting_institutions"
-                    >Accepting Institutions</a
-                  ><a class="_2GbNa" href="https://certs.duolingo.com/en/test_takers/stories"
-                    >Student Stories</a
-                  ><a class="_2GbNa" href="https://certs.duolingo.com/en/prepare">Prepare</a
-                  ><a class="_2GbNa" href="https://certs.duolingo.com/en/prepare/guide">Official Test Guide</a
-                  ><a class="_2GbNa" href="https://certs.duolingo.com/en/dashboard/resources">Resources</a
-                  ><a class="_2GbNa" href="https://certs.duolingo.com/en/test_takers/accommodations"
-                    >Accommodations</a
-                  ><a class="_2GbNa" href="https://certs.duolingo.com/en/test/practice">Practice Free</a
-                  ><a class="_2GbNa" href="https://certs.duolingo.com/en/pay">Purchase the Test</a>
-                </div>
-                <div class="_1rg1g">
-                  <h5 class="_2ukD7 _2baiJ undefined">Accepting the Test</h5>
-                  <a class="_2GbNa" href="https://certs.duolingo.com/en/institutions/overview">Overview</a
-                  ><a class="_2GbNa" href="https://certs.duolingo.com/en/institutions/scores">Test Scoring</a
-                  ><a class="_2GbNa" href="https://certs.duolingo.com/en/institutions/security"
-                    >Test Security</a
-                  ><a class="_2GbNa" href="https://certs.duolingo.com/en/institutions/access">Access Program</a
-                  ><a class="_2GbNa" href="https://certs.duolingo.com/en/prepare/guide">Test Readiness Guide</a
-                  ><a class="_2GbNa" href="https://certs.duolingo.com/en/institutions/resources">Resources</a
-                  ><a class="_2GbNa" href="https://certs.duolingo.com/en/test_takers/accepting_institutions"
-                    >Accepting Institutions</a
-                  ><a class="_2GbNa" href="https://certs.duolingo.com/en/dashboard/invitations"
-                    >Send Test Invitations</a
-                  >
-                </div>
-                <div class="_1rg1g">
-                  <h5 class="_2ukD7 _2baiJ undefined">Test research</h5>
-                  <a class="_2GbNa" href="https://certs.duolingo.com/en/research">Overview</a
-                  ><a class="_2GbNa" href="https://certs.duolingo.com/en/research/publications">Publications</a
-                  ><a class="_2GbNa" href="https://certs.duolingo.com/en/research/standards">Standards</a
-                  ><a class="_2GbNa" href="https://certs.duolingo.com/en/research/our_team">Our Team</a
-                  ><a class="_2GbNa" href="https://certs.duolingo.com/en/research/grants">Grants and Awards</a
-                  ><a
-                    class="_2GbNa"
-                    href="https://blog.englishtest.duolingo.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    data-bypass="true"
-                    >Blog</a
-                  >
-                </div>
-                <div class="_1rg1g">
-                  <h5 class="_2ukD7 _2baiJ undefined">Help &amp; Support</h5>
-                  <a
-                    class="_2GbNa"
-                    href="https://testcenter.zendesk.com/hc/en-us"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    data-bypass="true"
-                    >Help Center</a
-                  ><a class="_2GbNa" href="https://certs.duolingo.com/en/terms_of_service">Terms</a
-                  ><a
-                    class="_2GbNa"
-                    href="https://certs.duolingo.com/en/privacy"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    data-bypass="true"
-                    >Privacy</a
-                  ><a
-                    class="_2GbNa"
-                    href="https://certs.duolingo.com/en/whistleblower"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    data-bypass="true"
-                    >Whistleblower Form</a
-                  >
-                </div>
+              <div class="_1rg1g">
+                <h5 class="_2ukD7 _2baiJ undefined">Help &amp; Support</h5>
+                <a
+                  class="_2GbNa"
+                  href="https://testcenter.zendesk.com/hc/en-us"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-bypass="true"
+                  >Help Center</a
+                ><a class="_2GbNa" href="https://englishtest.duolingo.com/en/terms_of_service">Terms</a
+                ><a
+                  class="_2GbNa"
+                  href="https://englishtest.duolingo.com/en/privacy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-bypass="true"
+                  >Privacy</a
+                ><a
+                  class="_2GbNa"
+                  href="https://englishtest.duolingo.com/en/whistleblower"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-bypass="true"
+                  >Whistleblower Form</a
+                >
               </div>
             </div>
-          </footer>
-        </div>
+          </div>
+        </footer>
       </div>
     </div>
-    <script>
-      var duo = duo || {};
-  
-      duo.in_china = false;
-      duo.ui_language = "en";
-      duo.supported_ui_languages = [
-        "de",
-        "en",
-        "es",
-        "fr",
-        "hi",
-        "hu",
-        "id",
-        "it",
-        "ja",
-        "ko",
-        "pt",
-        "ru",
-        "th",
-        "tr",
-        "uk",
-        "vi",
-        "zs",
-        "zt",
-      ];
-      duo.zendesk_language = "en-us";
-      duo.languages = JSON.parse(
-        '{"zs": {"label": "\u4e2d\u6587", "locale": "zh-CN"}, "zt": {"label": "\u4e2d\u6587 (\u7e41\u9ad4)", "locale": "zh-CN"}, "en": {"label": "English", "locale": "en-US"}, "fr": {"label": "Fran\u00e7ais", "locale": "fr-FR"}, "de": {"label": "Deutsch", "locale": "de-DE"}, "hi": {"label": "\u0939\u093f\u0902\u0926\u0940", "locale": "hi-IN"}, "hu": {"label": "Magyar", "locale": "hu-HU"}, "id": {"label": "Bahasa Indonesia", "locale": "id-ID"}, "it": {"label": "Italiano", "locale": "it-IT"}, "ja": {"label": "\u65e5\u672c\u8a9e", "locale": "ja-JP"}, "ko": {"label": "\ud55c\uad6d\uc5b4", "locale": "ko-KR"}, "pt": {"label": "Portugu\u00eas", "locale": "pt-BR"}, "ru": {"label": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439", "locale": "ru-RU"}, "es": {"label": "Espa\u00f1ol", "locale": "es-ES"}, "th": {"label": "\u0e20\u0e32\u0e29\u0e32\u0e44\u0e17\u0e22", "locale": "th-TH"}, "tr": {"label": "T\u00fcrk\u00e7e", "locale": "tr-TR"}, "uk": {"label": "\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e", "locale": "uk-UA"}, "vi": {"label": "Ti\u1ebfng Vi\u1ec7t", "locale": "vi-VN"}}',
-      );
-      duo.detectedCountry = "US";
-      duo.ip = "130.44.212.152";
-      duo.isBlockedCountry = false;
-      duo.states = JSON.parse(
-        '{"AK": "Alaska", "AL": "Alabama", "AR": "Arkansas", "AZ": "Arizona", "CA": "California", "CO": "Colorado", "CT": "Connecticut", "DC": "District of Columbia", "DE": "Delaware", "FL": "Florida", "GA": "Georgia", "HI": "Hawaii", "IA": "Iowa", "ID": "Idaho", "IL": "Illinois", "IN": "Indiana", "KS": "Kansas", "KY": "Kentucky", "LA": "Louisiana", "MA": "Massachusetts", "MD": "Maryland", "ME": "Maine", "MI": "Michigan", "MN": "Minnesota", "MO": "Missouri", "MS": "Mississippi", "MT": "Montana", "NC": "North Carolina", "ND": "North Dakota", "NE": "Nebraska", "NH": "New Hampshire", "NJ": "New Jersey", "NM": "New Mexico", "NV": "Nevada", "NY": "New York", "OH": "Ohio", "OK": "Oklahoma", "OR": "Oregon", "PA": "Pennsylvania", "RI": "Rhode Island", "SC": "South Carolina", "SD": "South Dakota", "TN": "Tennessee", "TX": "Texas", "UT": "Utah", "VA": "Virginia", "VT": "Vermont", "WA": "Washington", "WI": "Wisconsin", "WV": "West Virginia", "WY": "Wyoming"}',
-      );
-      duo.ca_provinces = JSON.parse(
-        '{"AB": "Alberta", "BC": "British Columbia", "MB": "Manitoba", "NB": "New Brunswick", "NL": "Newfoundland and Labrador", "NT": "Northwest Territories", "NS": "Nova Scotia", "NU": "Nunavut", "ON": "Ontario", "PE": "Prince Edward Island", "QC": "Quebec", "SK": "Saskatchewan", "YT": "Yukon"}',
-      );
-      duo.scoreConcordances = [
-        ["Duolingo English Test", "TOEFL iBT", "IELTS", "CEFR"],
-        [100, null, null, "C2"],
-        [99, 120, 9, "C2"],
-        [98, 119, 9, "C2"],
-        [97, 118, 8.5, "C2"],
-        [96, 117, 8.5, "C2"],
-        [95, 116, 8.5, "C2"],
-        [94, 115, 8.5, "C2"],
-        [93, 115, 8, "C2"],
-        [92, 114, 8, "C2"],
-        [91, 113, 8, "C2"],
-        [90, 112, 8, "C1"],
-        [89, 112, 8, "C1"],
-        [88, 111, 8, "C1"],
-        [87, 110, 8, "C1"],
-        [86, 109, 7.5, "C1"],
-        [85, 109, 7.5, "C1"],
-        [84, 108, 7.5, "C1"],
-        [83, 108, 7.5, "C1"],
-        [82, 107, 7.5, "C1"],
-        [81, 106, 7.5, "C1"],
-        [80, 105, 7.5, "C1"],
-        [79, 105, 7.5, "C1"],
-        [78, 104, 7, "C1"],
-        [77, 103, 7, "C1"],
-        [76, 103, 7, "C1"],
-        [75, 102, 7, "C1"],
-        [74, 101, 7, "C1"],
-        [73, 101, 7, "C1"],
-        [72, 100, 7, "C1"],
-        [71, 99, 7, "C1"],
-        [70, 98, 7, "B2"],
-        [69, 98, 7, "B2"],
-        [68, 97, 6.5, "B2"],
-        [67, 96, 6.5, "B2"],
-        [66, 95, 6.5, "B2"],
-        [65, 95, 6.5, "B2"],
-        [64, 94, 6.5, "B2"],
-        [63, 93, 6.5, "B2"],
-        [62, 92, 6.5, "B2"],
-        [61, 92, 6.5, "B2"],
-        [60, 91, 6, "B2"],
-        [59, 90, 6, "B2"],
-        [58, 89, 6, "B2"],
-        [57, 88, 6, "B2"],
-        [56, 87, 6, "B2"],
-        [55, 86, 6, "B2"],
-        [54, 85, 6, "B2"],
-        [53, 84, 6, "B2"],
-        [52, 84, 6, "B2"],
-        [51, 83, 6, "B2"],
-        [50, 82, 6, "B1"],
-        [49, 81, 5.5, "B1"],
-        [48, 80, 5.5, "B1"],
-        [47, 79, 5.5, "B1"],
-        [46, 78, 5.5, "B1"],
-        [45, 77, 5.5, "B1"],
-        [44, 76, 5.5, "B1"],
-        [43, 75, 5.5, "B1"],
-        [42, 74, 5.5, "B1"],
-        [41, 73, 5.5, "B1"],
-        [40, 72, 5.5, "B1"],
-        [39, 71, 5.5, "B1"],
-        [38, 70, 5, "B1"],
-        [37, 69, 5, "B1"],
-        [36, 68, 5, "B1"],
-        [35, 67, 5, "B1"],
-        [34, 67, 5, "B1"],
-        [33, 66, 5, "B1"],
-        [32, 65, 5, "B1"],
-        [31, 64, 5, "B1"],
-        [30, 63, 5, "A2"],
-        [29, 62, 4.5, "A2"],
-        [28, 61, 4.5, "A2"],
-        [27, 60, 4.5, "A2"],
-        [26, 60, 4.5, "A2"],
-        [25, null, null, "A2"],
-        [24, null, null, "A2"],
-        [23, null, null, "A2"],
-        [22, null, null, "A2"],
-        [21, null, null, "A2"],
-        [20, null, null, "A2"],
-        [19, null, null, "A2"],
-        [18, null, null, "A2"],
-        [17, null, null, "A2"],
-        [16, null, null, "A2"],
-        [15, null, null, "A2"],
-        [14, null, null, "A2"],
-        [13, null, null, "A2"],
-        [12, null, null, "A2"],
-        [11, null, null, "A2"],
-        [10, null, null, "A1"],
-        [9, null, null, "A1"],
-        [8, null, null, "A1"],
-        [7, null, null, "A1"],
-        [6, null, null, "A1"],
-        [5, null, null, "A1"],
-        [4, null, null, "A1"],
-        [3, null, null, "A1"],
-        [2, null, null, "A1"],
-        [1, null, null, "A1"],
-        [0, null, null, "A1"],
-      ];
-      duo.test_name = "Duolingo English Test";
-      duo.literacy_subscore_name = "Literacy";
-      duo.conversation_subscore_name = "Conversation";
-      duo.comprehension_subscore_name = "Comprehension";
-      duo.production_subscore_name = "Production";
-      duo.speaking_subscore_name = "Speaking";
-      duo.writing_subscore_name = "Writing";
-      duo.reading_subscore_name = "Reading";
-      duo.listening_subscore_name = "Listening";
-      duo.subscoreNames = {
-        literacy: "Literacy",
-        conversation: "Conversation",
-        comprehension: "Comprehension",
-        production: "Production",
-        speaking: "Speaking",
-        writing: "Writing",
-        reading: "Reading",
-        listening: "Listening",
-      };
-      duo.static_root = "./static";
-      duo.prod_cdn = "https://dy8n3onijof8f.cloudfront.net";
-      duo.test_price_cents = 6500;
-      duo.is_expedited_proctoring_enabled = true;
-      duo.expedited_review_period = 12;
-      duo.agent_review_period = 24;
-      duo.normal_review_period = 48;
-      duo.review_period = 48;
-      duo.resubmitDays = 14;
-      duo.purchase_window = 30;
-      duo.purchase_max_tests = 3;
-      duo.credit_days = 21;
-      duo.track_mixpanel = true;
-      duo.show_price_in_test_taker_home = false;
-      duo.show_price_in_score_estimate = false;
-      duo.environment = "master";
-      duo.sentry_environment = "prod";
-      duo.server_name = "us";
-      duo.template_name = "prod";
-      duo.code_version = "ec311a7192e3f3aa29027bb51ee0f909e23ef8cc";
-      duo.monolith_code_version = "1a0161add482618a7c27effdfba4a180cbfc4302";
-      duo.disable_practice_warning = false;
-      duo.disable_hdyhau = false;
-      duo.dashboard_maintenance = false;
-      duo.show_redesign_bulk_purchase = true;
-      duo.disable_buy = true;
-      duo.threshold_for_keyboard_detection = 50;
-      duo.should_show_new_desktop_version = true;
-      duo.should_send_user_to_third_party_id_verification = true;
-      duo.should_send_chinese_user_to_third_party_id_verification = true;
-      duo.fingerprintjs_pk = "udpwcl7kbwyZYhUVBT4t";
-      duo.debug_widget = false;
-      duo.exam_admin_admin = false;
-      duo.show_bug_report_button = false;
-      duo._det_api_gateway_host = "https://det-api.duolingo.com";
-      duo.duostrings_url =
-        "https://localization-duostrings.duolingo.com/duostrings/det-web88e68514f00d7aa6db6abcb1c57b803b/latest/en.duostrings";
-      duo.en_duostrings_url =
-        "https://localization-duostrings.duolingo.com/duostrings/det-web88e68514f00d7aa6db6abcb1c57b803b/latest/en.duostrings";
-      duo.enable_wechat_login_on_desktop = false;
-      duo.use_coupon_bulk_purchase_worker = true;
-      duo.wechat_open_app_id = "wx09757508835c6441";
-      duo.recaptcha_site_key = "6Le3YpAkAAAAAG20zlwTeZv2Qk6pVU5i7AACApRt";
-      duo.recaptcha_enabled = false;
-      duo.stripe_payment_element_configuration_id =
-        "pmc_1N6VRKJUu4MsRlhR3Ld699As";
-      duo.stripe_payment_element_configuration_id_cn =
-        "pmc_1N6VQyJUu4MsRlhRzzNuSoBk";
-      duo.stripe_payment_element_configuration_id_ng =
-        "pmc_1PptzXJUu4MsRlhRLyvrFMKI";
-      duo.stripe_payment_element_configuration_id_id =
-        "pmc_1QJUuOJUu4MsRlhRCq2AIFor";
-      duo.stripe_payment_element_configuration_id_digital_wallets =
-        "pmc_1NfP7EJUu4MsRlhRB1dgecTe";
-      duo.stripe_payment_element_configuration_id_cn_with_wechat_pay =
-        "pmc_1NfP8GJUu4MsRlhRzr3mmzRd";
-      duo.stripe_payment_element_configuration_id_kr =
-        "pmc_1Nk0g3JUu4MsRlhRR7OBBisb";
-      duo.stripe_payment_element_configuration_id_electron =
-        "pmc_1PGQaaJUu4MsRlhRiQl0VKbu";
-      duo.stripe_payment_element_configuration_id_electron_cn =
-        "pmc_1PGQbBJUu4MsRlhRVf3oxgsh";
-      duo.stripe_payment_element_configuration_id_electron_ng =
-        "pmc_1Ppu0SJUu4MsRlhRIHmD2snS";
-      duo.stripe_payment_element_configuration_id_electron_id =
-        "pmc_1QJUvQJUu4MsRlhRXtmoIrhh";
-      duo.client_side_experiment_rollouts = JSON.parse(
-        '{"tc_juicy_homepage_test_structure": 0.0, "tc_juicy_homepage_navbar": 1.0}',
-      );
-      duo.use_redesign_styles_on_certified_test = true;
-      duo.show_stripe_alipay_in_china = true;
-      duo.enable_prepilot = true;
-      duo.enable_attitude_survey = false;
-      duo.sample_session_errors_rate = 0.05;
-      duo.upload_speed_check_file_size = 500000;
-      duo.num_accepting_institutions = 5500;
-      duo.enable_pt_opt_in_screen = false;
-      duo.should_show_site_maintenance_banner = false;
-      duo.should_show_v8_hold_banner = false;
-      duo.enable_decagon_integration = true;
-  
-      duo.show_mwalt_pages = true;
-      duo.enable_id_sdk = true;
-      duo.enable_refugee_option = true;
-      duo.should_show_juicy_website = false;
-      duo.should_remove_profile_builder = false;
-  
-      duo.minutes = duo.minutes || {};
-      duo.minutes.onboarding = 5;
-      duo.minutes.test = 45;
-      duo.minutes.interview = 10;
-      duo.minutes.practice = 45;
-    </script>
-    <script>
-      duo.sourcesPromise = fetch(
-        "https://localization-duostrings.duolingo.com/duostrings/det-web88e68514f00d7aa6db6abcb1c57b803b/latest/en.duostrings",
-      )
-        .then(function (s) {
-          return s.json();
-        })
-        .then(function (s) {
-          duo.sources = s.sources;
-        });
-    </script>
-    <script></script>
-    <script>
-      var global = global || window;
-    </script>
-    <script
-      src="./static/js/main_prod_d6dc69bcb60d169d1662.js"
-      crossorigin=""
-    ></script>
-    <script
-      src="./static/js/2535_prod_4353979d3c326a7cf9ee.js"
-      crossorigin=""
-    ></script>
-    <script>
-      !(function (e, a, n, t, o) {
-        var c, r, d;
-        (e[o] = e[o] || []),
-          (c = function () {
-            var a = { ti: "343094589", enableAutoSpaTracking: !0 };
-            (a.q = e[o]), (e[o] = new UET(a)), e[o].push("pageLoad");
+  </div>
+  <script>
+    var duo = duo || {};
+
+    duo.in_china = false;
+    duo.ui_language = "en";
+    duo.supported_ui_languages = [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "hu",
+      "id",
+      "it",
+      "ja",
+      "ko",
+      "pt",
+      "ru",
+      "th",
+      "tr",
+      "uk",
+      "vi",
+      "zs",
+      "zt",
+    ];
+    duo.zendesk_language = "en-us";
+    duo.languages = JSON.parse(
+      '{"zs": {"label": "\u4e2d\u6587", "locale": "zh-CN"}, "zt": {"label": "\u4e2d\u6587 (\u7e41\u9ad4)", "locale": "zh-CN"}, "en": {"label": "English", "locale": "en-US"}, "fr": {"label": "Fran\u00e7ais", "locale": "fr-FR"}, "de": {"label": "Deutsch", "locale": "de-DE"}, "hi": {"label": "\u0939\u093f\u0902\u0926\u0940", "locale": "hi-IN"}, "hu": {"label": "Magyar", "locale": "hu-HU"}, "id": {"label": "Bahasa Indonesia", "locale": "id-ID"}, "it": {"label": "Italiano", "locale": "it-IT"}, "ja": {"label": "\u65e5\u672c\u8a9e", "locale": "ja-JP"}, "ko": {"label": "\ud55c\uad6d\uc5b4", "locale": "ko-KR"}, "pt": {"label": "Portugu\u00eas", "locale": "pt-BR"}, "ru": {"label": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439", "locale": "ru-RU"}, "es": {"label": "Espa\u00f1ol", "locale": "es-ES"}, "th": {"label": "\u0e20\u0e32\u0e29\u0e32\u0e44\u0e17\u0e22", "locale": "th-TH"}, "tr": {"label": "T\u00fcrk\u00e7e", "locale": "tr-TR"}, "uk": {"label": "\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e", "locale": "uk-UA"}, "vi": {"label": "Ti\u1ebfng Vi\u1ec7t", "locale": "vi-VN"}}',
+    );
+    duo.detectedCountry = "US";
+    duo.ip = "130.44.212.152";
+    duo.isBlockedCountry = false;
+    duo.states = JSON.parse(
+      '{"AK": "Alaska", "AL": "Alabama", "AR": "Arkansas", "AZ": "Arizona", "CA": "California", "CO": "Colorado", "CT": "Connecticut", "DC": "District of Columbia", "DE": "Delaware", "FL": "Florida", "GA": "Georgia", "HI": "Hawaii", "IA": "Iowa", "ID": "Idaho", "IL": "Illinois", "IN": "Indiana", "KS": "Kansas", "KY": "Kentucky", "LA": "Louisiana", "MA": "Massachusetts", "MD": "Maryland", "ME": "Maine", "MI": "Michigan", "MN": "Minnesota", "MO": "Missouri", "MS": "Mississippi", "MT": "Montana", "NC": "North Carolina", "ND": "North Dakota", "NE": "Nebraska", "NH": "New Hampshire", "NJ": "New Jersey", "NM": "New Mexico", "NV": "Nevada", "NY": "New York", "OH": "Ohio", "OK": "Oklahoma", "OR": "Oregon", "PA": "Pennsylvania", "RI": "Rhode Island", "SC": "South Carolina", "SD": "South Dakota", "TN": "Tennessee", "TX": "Texas", "UT": "Utah", "VA": "Virginia", "VT": "Vermont", "WA": "Washington", "WI": "Wisconsin", "WV": "West Virginia", "WY": "Wyoming"}',
+    );
+    duo.ca_provinces = JSON.parse(
+      '{"AB": "Alberta", "BC": "British Columbia", "MB": "Manitoba", "NB": "New Brunswick", "NL": "Newfoundland and Labrador", "NT": "Northwest Territories", "NS": "Nova Scotia", "NU": "Nunavut", "ON": "Ontario", "PE": "Prince Edward Island", "QC": "Quebec", "SK": "Saskatchewan", "YT": "Yukon"}',
+    );
+    duo.scoreConcordances = [
+      ["Duolingo English Test", "TOEFL iBT", "IELTS", "CEFR"],
+      [100, null, null, "C2"],
+      [99, 120, 9, "C2"],
+      [98, 119, 9, "C2"],
+      [97, 118, 8.5, "C2"],
+      [96, 117, 8.5, "C2"],
+      [95, 116, 8.5, "C2"],
+      [94, 115, 8.5, "C2"],
+      [93, 115, 8, "C2"],
+      [92, 114, 8, "C2"],
+      [91, 113, 8, "C2"],
+      [90, 112, 8, "C1"],
+      [89, 112, 8, "C1"],
+      [88, 111, 8, "C1"],
+      [87, 110, 8, "C1"],
+      [86, 109, 7.5, "C1"],
+      [85, 109, 7.5, "C1"],
+      [84, 108, 7.5, "C1"],
+      [83, 108, 7.5, "C1"],
+      [82, 107, 7.5, "C1"],
+      [81, 106, 7.5, "C1"],
+      [80, 105, 7.5, "C1"],
+      [79, 105, 7.5, "C1"],
+      [78, 104, 7, "C1"],
+      [77, 103, 7, "C1"],
+      [76, 103, 7, "C1"],
+      [75, 102, 7, "C1"],
+      [74, 101, 7, "C1"],
+      [73, 101, 7, "C1"],
+      [72, 100, 7, "C1"],
+      [71, 99, 7, "C1"],
+      [70, 98, 7, "B2"],
+      [69, 98, 7, "B2"],
+      [68, 97, 6.5, "B2"],
+      [67, 96, 6.5, "B2"],
+      [66, 95, 6.5, "B2"],
+      [65, 95, 6.5, "B2"],
+      [64, 94, 6.5, "B2"],
+      [63, 93, 6.5, "B2"],
+      [62, 92, 6.5, "B2"],
+      [61, 92, 6.5, "B2"],
+      [60, 91, 6, "B2"],
+      [59, 90, 6, "B2"],
+      [58, 89, 6, "B2"],
+      [57, 88, 6, "B2"],
+      [56, 87, 6, "B2"],
+      [55, 86, 6, "B2"],
+      [54, 85, 6, "B2"],
+      [53, 84, 6, "B2"],
+      [52, 84, 6, "B2"],
+      [51, 83, 6, "B2"],
+      [50, 82, 6, "B1"],
+      [49, 81, 5.5, "B1"],
+      [48, 80, 5.5, "B1"],
+      [47, 79, 5.5, "B1"],
+      [46, 78, 5.5, "B1"],
+      [45, 77, 5.5, "B1"],
+      [44, 76, 5.5, "B1"],
+      [43, 75, 5.5, "B1"],
+      [42, 74, 5.5, "B1"],
+      [41, 73, 5.5, "B1"],
+      [40, 72, 5.5, "B1"],
+      [39, 71, 5.5, "B1"],
+      [38, 70, 5, "B1"],
+      [37, 69, 5, "B1"],
+      [36, 68, 5, "B1"],
+      [35, 67, 5, "B1"],
+      [34, 67, 5, "B1"],
+      [33, 66, 5, "B1"],
+      [32, 65, 5, "B1"],
+      [31, 64, 5, "B1"],
+      [30, 63, 5, "A2"],
+      [29, 62, 4.5, "A2"],
+      [28, 61, 4.5, "A2"],
+      [27, 60, 4.5, "A2"],
+      [26, 60, 4.5, "A2"],
+      [25, null, null, "A2"],
+      [24, null, null, "A2"],
+      [23, null, null, "A2"],
+      [22, null, null, "A2"],
+      [21, null, null, "A2"],
+      [20, null, null, "A2"],
+      [19, null, null, "A2"],
+      [18, null, null, "A2"],
+      [17, null, null, "A2"],
+      [16, null, null, "A2"],
+      [15, null, null, "A2"],
+      [14, null, null, "A2"],
+      [13, null, null, "A2"],
+      [12, null, null, "A2"],
+      [11, null, null, "A2"],
+      [10, null, null, "A1"],
+      [9, null, null, "A1"],
+      [8, null, null, "A1"],
+      [7, null, null, "A1"],
+      [6, null, null, "A1"],
+      [5, null, null, "A1"],
+      [4, null, null, "A1"],
+      [3, null, null, "A1"],
+      [2, null, null, "A1"],
+      [1, null, null, "A1"],
+      [0, null, null, "A1"],
+    ];
+    duo.test_name = "Duolingo English Test";
+    duo.literacy_subscore_name = "Literacy";
+    duo.conversation_subscore_name = "Conversation";
+    duo.comprehension_subscore_name = "Comprehension";
+    duo.production_subscore_name = "Production";
+    duo.speaking_subscore_name = "Speaking";
+    duo.writing_subscore_name = "Writing";
+    duo.reading_subscore_name = "Reading";
+    duo.listening_subscore_name = "Listening";
+    duo.subscoreNames = {
+      literacy: "Literacy",
+      conversation: "Conversation",
+      comprehension: "Comprehension",
+      production: "Production",
+      speaking: "Speaking",
+      writing: "Writing",
+      reading: "Reading",
+      listening: "Listening",
+    };
+    duo.static_root = "./static";
+    duo.prod_cdn = "https://dy8n3onijof8f.cloudfront.net";
+    duo.test_price_cents = 6500;
+    duo.is_expedited_proctoring_enabled = true;
+    duo.expedited_review_period = 12;
+    duo.agent_review_period = 24;
+    duo.normal_review_period = 48;
+    duo.review_period = 48;
+    duo.resubmitDays = 14;
+    duo.purchase_window = 30;
+    duo.purchase_max_tests = 3;
+    duo.credit_days = 21;
+    duo.track_mixpanel = true;
+    duo.show_price_in_test_taker_home = false;
+    duo.show_price_in_score_estimate = false;
+    duo.environment = "master";
+    duo.sentry_environment = "prod";
+    duo.server_name = "us";
+    duo.template_name = "prod";
+    duo.code_version = "ec311a7192e3f3aa29027bb51ee0f909e23ef8cc";
+    duo.monolith_code_version = "1a0161add482618a7c27effdfba4a180cbfc4302";
+    duo.disable_practice_warning = false;
+    duo.disable_hdyhau = false;
+    duo.dashboard_maintenance = false;
+    duo.show_redesign_bulk_purchase = true;
+    duo.disable_buy = true;
+    duo.threshold_for_keyboard_detection = 50;
+    duo.should_show_new_desktop_version = true;
+    duo.should_send_user_to_third_party_id_verification = true;
+    duo.should_send_chinese_user_to_third_party_id_verification = true;
+    duo.fingerprintjs_pk = "udpwcl7kbwyZYhUVBT4t";
+    duo.debug_widget = false;
+    duo.exam_admin_admin = false;
+    duo.show_bug_report_button = false;
+    duo._det_api_gateway_host = "https://det-api.duolingo.com";
+    duo.duostrings_url =
+      "https://localization-duostrings.duolingo.com/duostrings/det-web88e68514f00d7aa6db6abcb1c57b803b/latest/en.duostrings";
+    duo.en_duostrings_url =
+      "https://localization-duostrings.duolingo.com/duostrings/det-web88e68514f00d7aa6db6abcb1c57b803b/latest/en.duostrings";
+    duo.enable_wechat_login_on_desktop = false;
+    duo.use_coupon_bulk_purchase_worker = true;
+    duo.wechat_open_app_id = "wx09757508835c6441";
+    duo.recaptcha_site_key = "6Le3YpAkAAAAAG20zlwTeZv2Qk6pVU5i7AACApRt";
+    duo.recaptcha_enabled = false;
+    duo.stripe_payment_element_configuration_id =
+      "pmc_1N6VRKJUu4MsRlhR3Ld699As";
+    duo.stripe_payment_element_configuration_id_cn =
+      "pmc_1N6VQyJUu4MsRlhRzzNuSoBk";
+    duo.stripe_payment_element_configuration_id_ng =
+      "pmc_1PptzXJUu4MsRlhRLyvrFMKI";
+    duo.stripe_payment_element_configuration_id_id =
+      "pmc_1QJUuOJUu4MsRlhRCq2AIFor";
+    duo.stripe_payment_element_configuration_id_digital_wallets =
+      "pmc_1NfP7EJUu4MsRlhRB1dgecTe";
+    duo.stripe_payment_element_configuration_id_cn_with_wechat_pay =
+      "pmc_1NfP8GJUu4MsRlhRzr3mmzRd";
+    duo.stripe_payment_element_configuration_id_kr =
+      "pmc_1Nk0g3JUu4MsRlhRR7OBBisb";
+    duo.stripe_payment_element_configuration_id_electron =
+      "pmc_1PGQaaJUu4MsRlhRiQl0VKbu";
+    duo.stripe_payment_element_configuration_id_electron_cn =
+      "pmc_1PGQbBJUu4MsRlhRVf3oxgsh";
+    duo.stripe_payment_element_configuration_id_electron_ng =
+      "pmc_1Ppu0SJUu4MsRlhRIHmD2snS";
+    duo.stripe_payment_element_configuration_id_electron_id =
+      "pmc_1QJUvQJUu4MsRlhRXtmoIrhh";
+    duo.client_side_experiment_rollouts = JSON.parse(
+      '{"tc_juicy_homepage_test_structure": 0.0, "tc_juicy_homepage_navbar": 1.0}',
+    );
+    duo.use_redesign_styles_on_certified_test = true;
+    duo.show_stripe_alipay_in_china = true;
+    duo.enable_prepilot = true;
+    duo.enable_attitude_survey = false;
+    duo.sample_session_errors_rate = 0.05;
+    duo.upload_speed_check_file_size = 500000;
+    duo.num_accepting_institutions = 5500;
+    duo.enable_pt_opt_in_screen = false;
+    duo.should_show_site_maintenance_banner = false;
+    duo.should_show_v8_hold_banner = false;
+    duo.enable_decagon_integration = true;
+
+    duo.show_mwalt_pages = true;
+    duo.enable_id_sdk = true;
+    duo.enable_refugee_option = true;
+    duo.should_show_juicy_website = false;
+    duo.should_remove_profile_builder = false;
+
+    duo.minutes = duo.minutes || {};
+    duo.minutes.onboarding = 5;
+    duo.minutes.test = 45;
+    duo.minutes.interview = 10;
+    duo.minutes.practice = 45;
+  </script>
+  <script>
+    duo.sourcesPromise = fetch(
+      "https://localization-duostrings.duolingo.com/duostrings/det-web88e68514f00d7aa6db6abcb1c57b803b/latest/en.duostrings",
+    )
+      .then(function (s) {
+        return s.json();
+      })
+      .then(function (s) {
+        duo.sources = s.sources;
+      });
+  </script>
+  <script></script>
+  <script>
+    var global = global || window;
+  </script>
+  <script
+    src="./static/js/main_prod_d6dc69bcb60d169d1662.js"
+    crossorigin=""
+  ></script>
+  <script
+    src="./static/js/2535_prod_4353979d3c326a7cf9ee.js"
+    crossorigin=""
+  ></script>
+  <script>
+    !(function (e, a, n, t, o) {
+      var c, r, d;
+      (e[o] = e[o] || []),
+        (c = function () {
+          var a = { ti: "343094589", enableAutoSpaTracking: !0 };
+          (a.q = e[o]), (e[o] = new UET(a)), e[o].push("pageLoad");
+        }),
+        ((r = a.createElement(n)).src = "//bat.bing.com/bat.js"),
+        (r.async = 1),
+        (r.onload = r.onreadystatechange =
+          function () {
+            var e = this.readyState;
+            (e && "loaded" !== e && "complete" !== e) ||
+              (c(), (r.onload = r.onreadystatechange = null));
           }),
-          ((r = a.createElement(n)).src = "//bat.bing.com/bat.js"),
-          (r.async = 1),
-          (r.onload = r.onreadystatechange =
-            function () {
-              var e = this.readyState;
-              (e && "loaded" !== e && "complete" !== e) ||
-                (c(), (r.onload = r.onreadystatechange = null));
-            }),
-          (d = a.getElementsByTagName(n)[0]).parentNode.insertBefore(r, d);
-      })(window, document, "script", 0, "uetq");
-    </script>
-    <script>
-      (piAId = "209162"),
-        (piCId = "1262"),
-        (function () {
-          function t() {
-            var t = document.createElement("script");
-            (t.type = "text/javascript"),
-              (t.src =
-                ("https:" == document.location.protocol
-                  ? "https://pi"
-                  : "http://cdn") + ".pardot.com/pd.js");
-            var e = document.getElementsByTagName("script")[0];
-            e.parentNode.insertBefore(t, e);
-          }
-          window.attachEvent
-            ? window.attachEvent("onload", t)
-            : window.addEventListener("load", t, !1);
-        })();
-    </script>
-    <script
-      src="https://accounts.google.com/gsi/client"
-      async=""
-      defer="defer"
-    ></script>
-   
-    
-    <div id="zendesk"></div>
-    
-    <div class="ReactModalPortal"></div>
-    <div
-      id="batBeacon924957465274"
-      style="width: 0px; height: 0px; display: none; visibility: hidden"
-    >
-      <img
-        id="batBeacon974825628755"
-        width="0"
-        height="0"
-        alt=""
-        src="https://bat.bing.com/action/0?ti=343094589&amp;Ver=2&amp;mid=98fad0fd-8b83-4668-84c6-489402d401ee&amp;bo=1&amp;sid=5eca55a0ae6e11ef995357ee3fc736d4&amp;vid=5eca6ef0ae6e11ef9778f5dfca9353df&amp;vids=0&amp;msclkid=N&amp;pi=918639831&amp;lg=zh-CN&amp;sw=1792&amp;sh=1120&amp;sc=24&amp;tl=Duolingo%20English%20Test&amp;p=https%3A%2F%2Fcerts.duolingo.com%2Fen%2F7agbgeua9ymmdk1o&amp;r=&amp;lt=616&amp;evt=pageLoad&amp;sv=1&amp;cdb=AQAQ&amp;rn=620158"
-        style="width: 0px; height: 0px; display: none; visibility: hidden"
-      />
-    </div>
-    <div class="ReactModalPortal"></div>
-    <div class="ReactModalPortal"></div>
-    
-    <div class="ReactModalPortal"></div>
-  </body>
+        (d = a.getElementsByTagName(n)[0]).parentNode.insertBefore(r, d);
+    })(window, document, "script", 0, "uetq");
+  </script>
+  <script>
+    (piAId = "209162"),
+      (piCId = "1262"),
+      (function () {
+        function t() {
+          var t = document.createElement("script");
+          (t.type = "text/javascript"),
+            (t.src =
+              ("https:" == document.location.protocol
+                ? "https://pi"
+                : "http://cdn") + ".pardot.com/pd.js");
+          var e = document.getElementsByTagName("script")[0];
+          e.parentNode.insertBefore(t, e);
+        }
+        window.attachEvent
+          ? window.attachEvent("onload", t)
+          : window.addEventListener("load", t, !1);
+      })();
+  </script>
+  <script
+    src="https://accounts.google.com/gsi/client"
+    async=""
+    defer="defer"
+  ></script>
+ 
   
+  <div id="zendesk"></div>
+  
+  <div class="ReactModalPortal"></div>
+  <div
+    id="batBeacon924957465274"
+    style="width: 0px; height: 0px; display: none; visibility: hidden"
+  >
+    <img
+      id="batBeacon974825628755"
+      width="0"
+      height="0"
+      alt=""
+      src="https://bat.bing.com/action/0?ti=343094589&amp;Ver=2&amp;mid=98fad0fd-8b83-4668-84c6-489402d401ee&amp;bo=1&amp;sid=5eca55a0ae6e11ef995357ee3fc736d4&amp;vid=5eca6ef0ae6e11ef9778f5dfca9353df&amp;vids=0&amp;msclkid=N&amp;pi=918639831&amp;lg=zh-CN&amp;sw=1792&amp;sh=1120&amp;sc=24&amp;tl=Duolingo%20English%20Test&amp;p=https%3A%2F%2Fcerts.duolingo.com%2Fen%2F7agbgeua9ymmdk1o&amp;r=&amp;lt=616&amp;evt=pageLoad&amp;sv=1&amp;cdb=AQAQ&amp;rn=620158"
+      style="width: 0px; height: 0px; display: none; visibility: hidden"
+    />
+  </div>
+  <div class="ReactModalPortal"></div>
+  <div class="ReactModalPortal"></div>
+  
+  <div class="ReactModalPortal"></div>
+</body>
+
