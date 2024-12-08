@@ -76,6 +76,49 @@
     href="./static/css/main_prod_7d7367a77475f34c7512.css"
     crossorigin="anonymous"
   />
+  <style>
+    .header1208 {
+      top: 8px;
+      position: sticky;
+      background: #fff;
+      font-size: 16px;
+      height: 56px;
+      z-index: 900;
+      border-radius: 12px;
+      padding: 10px 12px;
+      max-width: 1280px;
+      width: calc(100% - 48px);
+      margin: 0 auto;
+    }
+    .header-boarder {
+      transition-property: opacity;
+      border: 1px solid rgba(0, 24, 54, .05);
+      box-shadow: 0 4px 12px rgba(0, 24, 54, .03), 0 10px 32px rgba(0, 24, 54, .03);
+      margin: 0 auto;
+    }
+    body {
+      background-color: #fff;
+    }
+    .language_panle {
+      display: none;
+    }
+    .takeYouTestPanel-language-mask, .top-change-language-mask {
+      display: none;
+      width: 100vw;
+      height: 100vh;
+      position: fixed;
+      left: 0;
+      top: 0;
+      background: rgba(0, 0, 0, 0.1);
+      z-index: 999;
+    }
+    
+    .uQNum:hover {
+      border-color: rgba(132, 216, 255, .2);
+      background-color: #f0faff;
+    }
+  
+  </style>
   <script>
     // location.href = 'https://certs.duolingo.com/dbqncizs2ku018ra';
   </script>
@@ -2105,49 +2148,6 @@
   
   <div class="ReactModalPortal"></div>
 </body>
-<style>
-  .header1208 {
-    top: 8px;
-    position: sticky;
-    background: #fff;
-    font-size: 16px;
-    height: 56px;
-    z-index: 900;
-    border-radius: 12px;
-    padding: 10px 12px;
-    max-width: 1280px;
-    width: calc(100% - 48px);
-    margin: 0 auto;
-  }
-  .header-boarder {
-    transition-property: opacity;
-    border: 1px solid rgba(0, 24, 54, .05);
-    box-shadow: 0 4px 12px rgba(0, 24, 54, .03), 0 10px 32px rgba(0, 24, 54, .03);
-    margin: 0 auto;
-  }
-  body {
-    background-color: #fff;
-  }
-  .language_panle {
-    display: none;
-  }
-  .takeYouTestPanel-language-mask, .top-change-language-mask {
-    display: none;
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    left: 0;
-    top: 0;
-    background: rgba(0, 0, 0, 0.1);
-    z-index: 999;
-  }
-  
-  .uQNum:hover {
-    border-color: rgba(132, 216, 255, .2);
-    background-color: #f0faff;
-  }
-
-</style>
 <script>
   var header = document.querySelector('._3CUPU');
   window.addEventListener('scroll', function() {
